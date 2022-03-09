@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "839159250734",
+    "project_id": "ship-certification",
+    "storage_bucket": "ship-certification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839159250734:android:64a24a7c044f046a7044bf",
+        "android_client_info": {
+          "package_name": "Bulu.ship_certification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839159250734-v9ba5g6gbek128624qtl4j592bmo6ndi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB47eMv_sT0B71LcyyvBzknaCssKO4uZ5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839159250734-v9ba5g6gbek128624qtl4j592bmo6ndi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
