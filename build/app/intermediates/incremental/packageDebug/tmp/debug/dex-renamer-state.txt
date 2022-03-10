@@ -1,4 +1,4 @@
-#Wed Mar 09 18:10:34 WIB 2022
+#Thu Mar 10 15:27:55 WIB 2022
 base.1=/Users/erzajuan/GitHub Repository/ShipCertification/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
 path.1=classes2.dex
 base.0=/Users/erzajuan/GitHub Repository/ShipCertification/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
