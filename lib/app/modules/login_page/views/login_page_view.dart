@@ -13,11 +13,13 @@ class LoginPageView extends GetView<LoginPageController> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'LoginPageView is working',
-          style: TextStyle(fontSize: 20),
-        ),
-      ),
+          child: Column(
+        children: [
+          TextField(
+            controller: controller.usernameController,
+          )
+        ],
+      )),
     );
   }
 }
