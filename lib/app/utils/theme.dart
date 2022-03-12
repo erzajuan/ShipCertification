@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 Color primaryColor = Color(0xff3F1871);
 Color blackColor = Colors.black;
+Color whiteColor = Colors.white;
 
 double edge24 = 24;
 
@@ -25,3 +26,6 @@ TextStyle finished = GoogleFonts.poppins(
 
 TextStyle unFinished = GoogleFonts.poppins(
     fontWeight: FontWeight.w300, color: Colors.red, fontSize: 14);
+
+TextStyle button = GoogleFonts.poppins(
+    fontWeight: FontWeight.w300, color: whiteColor, fontSize: 24);
