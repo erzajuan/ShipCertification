@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:ship_certification/app/modules/list_form_certificate_page/bindings/list_form_certificate_page_binding.dart';
+import 'package:ship_certification/app/modules/list_form_certificate_page/views/list_form_certificate_page_view.dart';
 
 import '../modules/create_report_page/bindings/create_report_page_binding.dart';
 import '../modules/create_report_page/views/create_report_page_view.dart';
@@ -28,6 +30,11 @@ class AppPages {
       name: _Paths.CREATE_REPORT_PAGE,
       page: () => CreateReportPageView(),
       binding: CreateReportPageBinding(),
+    ),
+    GetPage(
+      name: _Paths.LIST_FORM_CERTIFICATE_PAGE,
+      page: () => ListFormCertificatePageView(),
+      binding: ListFormCertificatePageBinding(),
     ),
   ];
 }

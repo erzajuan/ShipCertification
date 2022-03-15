@@ -31,7 +31,6 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
             ),
             TextFormField(
               controller: controller.namaKapalController,
-              initialValue: 'Nama Kapal',
               decoration: InputDecoration(
                 labelText: 'Nama Kapal',
                 border: OutlineInputBorder(),
@@ -42,7 +41,6 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
             ),
             TextFormField(
               controller: controller.namaInspekturController,
-              initialValue: 'Nama Inspektur',
               decoration: InputDecoration(
                 labelText: 'Nama Kapal',
                 border: OutlineInputBorder(),
@@ -53,7 +51,6 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
             ),
             TextFormField(
               controller: controller.tanggalController,
-              initialValue: DateFormat.yMMMd().format(DateTime.now()),
               decoration: InputDecoration(
                 labelText: 'Tanggal',
                 border: OutlineInputBorder(),
@@ -85,7 +82,7 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
                   fixedSize: Size(160, 76),
                 ),
                 onPressed: () {
-                  Get.toNamed(Routes.LIST_FORM_CERTIFICATE_PAGE);
+                  Get.toNamed(Routes.LIST_FORM_CERTIFICATE_PAGE)!;
                 },
                 child: Text(
                   'Next',
