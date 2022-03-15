@@ -126,7 +126,7 @@ class LoginPageView extends GetView<LoginPageController> {
                       controller.passwordController.text,
                     );
                   },
-                  child: Text("daftar"))
+                  child: Text("daftar, jangan diklik random"))
             ],
           ),
         ),
