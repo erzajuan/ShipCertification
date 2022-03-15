@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/erzajuan/GitHub Repository/ShipCertification/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "D:\\kuliah\\Bangkit\\fundamental android\\ShipCertification\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
             "map": [
                 {
-                    "source": "/Users/erzajuan/.gradle/caches/transforms-3/10152ccd1e16bf9bd032c5348e3a2968/transformed/core-1.6.0/res/values-da/values-da.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "291",
-                        "endColumns": "100",
-                        "endOffsets": "387"
-                    }
-                },
-                {
-                    "source": "/Users/erzajuan/.gradle/caches/transforms-3/0cd6899d1847a1dfeb9da083621039bf/transformed/jetified-play-services-basement-17.0.0/res/values-da/values.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\0cd6899d1847a1dfeb9da083621039bf\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-da\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,6 +18,23 @@
                         "startOffsets": "105",
                         "endColumns": "185",
                         "endOffsets": "286"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\10152ccd1e16bf9bd032c5348e3a2968\\transformed\\core-1.6.0\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "100",
+                        "endOffsets": "387"
                     }
                 }
             ]
