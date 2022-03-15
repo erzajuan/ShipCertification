@@ -23,13 +23,14 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
             Center(
               child: Text(
                 'Buat Laporan',
-                style: title1,
+                style: header1,
               ),
             ),
             SizedBox(
               height: 100,
             ),
             TextFormField(
+              controller: controller.namaKapalController,
               initialValue: 'Nama Kapal',
               decoration: InputDecoration(
                 labelText: 'Nama Kapal',
@@ -40,6 +41,7 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
               height: 16,
             ),
             TextFormField(
+              controller: controller.namaInspekturController,
               initialValue: 'Nama Inspektur',
               decoration: InputDecoration(
                 labelText: 'Nama Kapal',
@@ -50,9 +52,10 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
               height: 16,
             ),
             TextFormField(
+              controller: controller.tanggalController,
               initialValue: DateFormat.yMMMd().format(DateTime.now()),
               decoration: InputDecoration(
-                labelText: 'Label text',
+                labelText: 'Tanggal',
                 border: OutlineInputBorder(),
                 suffixIcon: Icon(Icons.date_range),
               ),

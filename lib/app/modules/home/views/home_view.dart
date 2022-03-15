@@ -25,11 +25,11 @@ class HomeView extends GetView<HomeController> {
               child: RichText(
                 text: TextSpan(
                   text: 'Selamat datang, ',
-                  style: title1,
+                  style: header1,
                   children: [
                     TextSpan(
                         text: '$_user',
-                        style: title1.copyWith(color: primaryColor))
+                        style: header1.copyWith(color: primaryColor))
                   ],
                 ),
               ),

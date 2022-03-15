@@ -22,7 +22,7 @@ class ReportHistoryCard extends StatelessWidget {
           children: [
             Text(
               text,
-              style: titleCard1,
+              style: normal,
             ),
             Row(
               children: [
