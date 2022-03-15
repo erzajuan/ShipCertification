@@ -2,16 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class LoginPageController extends GetxController {
-  TextEditingController emailController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
+  TextEditingController usernameController = TextEditingController();
 
-  RxBool secureText = true.obs;
-  void changeVisibility() => secureText.value = !secureText.value;
+  final count = 0.obs;
+  @override
+  void onInit() {
+    super.onInit();
+    usernameController;
+  }
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
 
   @override
   void onClose() {
-    emailController.dispose();
-    passwordController.dispose();
-    super.onClose();
+    usernameController.dispose();
   }
+
+  void increment() => count.value++;
 }
