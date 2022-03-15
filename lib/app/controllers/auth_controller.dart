@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-import 'package:get/get.dart';
-
-class AuthController extends GetxController {
-  void login() {}
-=======
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:ship_certification/app/routes/app_pages.dart';
@@ -64,5 +58,4 @@ class AuthController extends GetxController {
       print(e);
     }
   }
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
 }

@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-<<<<<<< HEAD
-=======
 import 'package:ship_certification/app/controllers/auth_controller.dart';
 import 'package:ship_certification/app/data/theme.dart';
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
 import '../controllers/login_page_controller.dart';
 
 class LoginPageView extends GetView<LoginPageController> {
@@ -31,11 +28,7 @@ class LoginPageView extends GetView<LoginPageController> {
               ),
               Text(
                 "PRO KSOP",
-<<<<<<< HEAD
-                style: TextStyle(fontSize: 24),
-=======
                 style: header2,
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
               ),
               SizedBox(
                 height: 30,
@@ -50,25 +43,14 @@ class LoginPageView extends GetView<LoginPageController> {
                   maxLines: 1,
                   decoration: InputDecoration(
                     labelText: "E-Mail",
-<<<<<<< HEAD
-                    labelStyle: TextStyle(
-                        color: Color(0xFF3F1871),
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400),
-=======
                     labelStyle: purpleText,
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(18.0),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(18.0),
                       borderSide: BorderSide(
-<<<<<<< HEAD
-                        color: Color(0xFF3F1871),
-=======
                         color: purplecolor,
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
                       ),
                     ),
                   ),
@@ -88,25 +70,14 @@ class LoginPageView extends GetView<LoginPageController> {
                     maxLines: 1,
                     decoration: InputDecoration(
                         labelText: "Password",
-<<<<<<< HEAD
-                        labelStyle: TextStyle(
-                            color: Color(0xFF3F1871),
-                            fontSize: 16,
-                            fontWeight: FontWeight.w400),
-=======
                         labelStyle: purpleText,
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(18.0),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(18.0),
                           borderSide: BorderSide(
-<<<<<<< HEAD
-                            color: Color(0xFF3F1871),
-=======
                             color: purplecolor,
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
                           ),
                         ),
                         suffixIcon: IconButton(
@@ -114,11 +85,7 @@ class LoginPageView extends GetView<LoginPageController> {
                             controller.secureText.value
                                 ? Icons.visibility
                                 : Icons.visibility_off,
-<<<<<<< HEAD
-                            color: Color(0xFF3F1871),
-=======
                             color: purplecolor,
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
                           ),
                           onPressed: () {
                             controller.changeVisibility();
@@ -137,21 +104,6 @@ class LoginPageView extends GetView<LoginPageController> {
                   borderRadius: BorderRadius.circular(18.0),
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-<<<<<<< HEAD
-                      primary: Color(0xFF3F1871),
-                    ),
-                    onPressed: () {},
-                    child: Text(
-                      "Sign In",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w600),
-                    ),
-                  ),
-                ),
-<<<<<<< HEAD
-=======
                       primary: purplecolor,
                     ),
                     onPressed: () {
@@ -166,23 +118,16 @@ class LoginPageView extends GetView<LoginPageController> {
                     ),
                   ),
                 ),
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
               ),
               ElevatedButton(
-                  onPressed: () {
-                    auth.signUp(
-                      controller.emailController.text,
-                      controller.passwordController.text,
-                    );
-                  },
-<<<<<<< HEAD
-                  child: Text("daftar, jangan diklik random"))
-=======
-              )
->>>>>>> parent of 5723c51 (Login Page + Authentication)
-=======
-                  child: Text("daftar"))
->>>>>>> parent of 2465428 (Revert "Erzajuan login page")
+                onPressed: () {
+                  auth.signUp(
+                    controller.emailController.text,
+                    controller.passwordController.text,
+                  );
+                },
+                child: Text("daftar"),
+              ),
             ],
           ),
         ),

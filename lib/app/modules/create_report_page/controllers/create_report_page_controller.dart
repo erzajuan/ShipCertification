@@ -1,8 +1,6 @@
 import 'package:get/get.dart';
 
 class CreateReportPageController extends GetxController {
-  //TODO: Implement CreateReportPageController
-
   final count = 0.obs;
   @override
   void onInit() {
