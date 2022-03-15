@@ -6,16 +6,12 @@ class LoginPageView extends GetView<LoginPageController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Login'),
-        centerTitle: true,
-      ),
       body: SingleChildScrollView(
         child: Center(
           child: Column(
             children: [
               SizedBox(
-                height: 173,
+                height: 257,
               ),
               Image.asset(
                 "assets/LogoDishub.png",
@@ -49,9 +45,6 @@ class LoginPageView extends GetView<LoginPageController> {
                         fontWeight: FontWeight.w400),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(18.0),
-                      borderSide: BorderSide(
-                        color: Color(0xFFFCDB00),
-                      ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(18.0),
@@ -92,8 +85,9 @@ class LoginPageView extends GetView<LoginPageController> {
                         suffixIcon: IconButton(
                           icon: Icon(
                             controller.secureText.value
-                                ? Icons.visibility_off
-                                : Icons.visibility,
+                                ? Icons.visibility
+                                : Icons.visibility_off,
+                            color: Color(0xFF3F1871),
                           ),
                           onPressed: () {
                             controller.changeVisibility();
