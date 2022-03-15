@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:ship_certification/app/controllers/auth_controller.dart';
+import 'package:ship_certification/app/data/theme.dart';
 import '../controllers/login_page_controller.dart';
 
 class LoginPageView extends GetView<LoginPageController> {
+  final auth = Get.find<AuthController>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +28,7 @@ class LoginPageView extends GetView<LoginPageController> {
               ),
               Text(
                 "PRO KSOP",
-                style: TextStyle(fontSize: 24),
+                style: header2,
               ),
               SizedBox(
                 height: 30,
@@ -39,17 +43,14 @@ class LoginPageView extends GetView<LoginPageController> {
                   maxLines: 1,
                   decoration: InputDecoration(
                     labelText: "E-Mail",
-                    labelStyle: TextStyle(
-                        color: Color(0xFF3F1871),
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400),
+                    labelStyle: purpleText,
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(18.0),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(18.0),
                       borderSide: BorderSide(
-                        color: Color(0xFF3F1871),
+                        color: purplecolor,
                       ),
                     ),
                   ),
@@ -69,17 +70,14 @@ class LoginPageView extends GetView<LoginPageController> {
                     maxLines: 1,
                     decoration: InputDecoration(
                         labelText: "Password",
-                        labelStyle: TextStyle(
-                            color: Color(0xFF3F1871),
-                            fontSize: 16,
-                            fontWeight: FontWeight.w400),
+                        labelStyle: purpleText,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(18.0),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(18.0),
                           borderSide: BorderSide(
-                            color: Color(0xFF3F1871),
+                            color: purplecolor,
                           ),
                         ),
                         suffixIcon: IconButton(
@@ -87,7 +85,7 @@ class LoginPageView extends GetView<LoginPageController> {
                             controller.secureText.value
                                 ? Icons.visibility
                                 : Icons.visibility_off,
-                            color: Color(0xFF3F1871),
+                            color: purplecolor,
                           ),
                           onPressed: () {
                             controller.changeVisibility();
@@ -106,19 +104,29 @@ class LoginPageView extends GetView<LoginPageController> {
                   borderRadius: BorderRadius.circular(18.0),
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Color(0xFF3F1871),
+                      primary: purplecolor,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      auth.login(
+                        controller.emailController.text,
+                        controller.passwordController.text,
+                      );
+                    },
                     child: Text(
                       "Sign In",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w600),
+                      style: whiteText,
                     ),
                   ),
                 ),
-              )
+              ),
+              ElevatedButton(
+                  onPressed: () {
+                    auth.signUp(
+                      controller.emailController.text,
+                      controller.passwordController.text,
+                    );
+                  },
+                  child: Text("daftar"))
             ],
           ),
         ),

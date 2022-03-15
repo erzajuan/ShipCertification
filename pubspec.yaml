@@ -2,23 +2,24 @@ name: ship_certification
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
-environment: 
+environment:
   sdk: '>=2.16.0 <3.0.0'
 
-dependencies: 
+dependencies:
   cupertino_icons: ^1.0.2
-  get: 4.6.1
+  firebase_auth: ^3.3.10
   firebase_core: 1.13.1
-  flutter: 
+  flutter:
     sdk: flutter
+  get: 4.6.1
+  google_fonts: ^2.3.1
 
-dev_dependencies: 
+dev_dependencies:
   flutter_lints: ^1.0.0
-  flutter_test: 
+  flutter_test:
     sdk: flutter
 
 flutter:
   assets:
     - assets/
   uses-material-design: true
-
