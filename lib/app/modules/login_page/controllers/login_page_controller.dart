@@ -18,7 +18,12 @@ class LoginPageController extends GetxController {
 
   @override
   void onClose() {
+<<<<<<< HEAD
     usernameController.dispose();
+=======
+    emailController.dispose();
+    passwordController.dispose();
+>>>>>>> parent of 5723c51 (Login Page + Authentication)
   }
 
   void increment() => count.value++;
