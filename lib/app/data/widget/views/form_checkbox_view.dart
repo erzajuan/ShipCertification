@@ -1,25 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:ship_certification/app/utils/theme.dart';
 
 class FormCheckboxView extends GetView {
   var value = false.obs;
-  final FormCheckboxViewController ctrl =
-      Get.put(FormCheckboxViewController(Title: ''));
+  // final FormCheckboxViewController ctrl =
+  //     Get.put(FormCheckboxViewController(Title: '', SubTitle: ''));
 
   final pemeriksaan = Get.put([
-    FormCheckboxViewController(Title: '1'),
-    FormCheckboxViewController(Title: '2'),
-    FormCheckboxViewController(Title: '3'),
+    FormCheckboxViewController(TitleForm: 'Pemeriksaan Tahunan', SubTitle: 'Initial Inspection',  ),
+    FormCheckboxViewController(TitleForm: 'Pemeriksaan Pembaharuan', SubTitle: 'Renewal Inspection'),
+    FormCheckboxViewController(TitleForm: 'Pemeriksaan Antara', SubTitle: 'Intermediate Inspection'),
+    FormCheckboxViewController(TitleForm: 'Pemeriksaan Tambahan', SubTitle: 'Additional Inspection'),
   ]);
 
-  final String Title;
+final String TitleForm;
   final String? Sub1;
   final String? Sub2;
   final String controller;
 
   FormCheckboxView(
       {Key? key,
-      required this.Title,
+required this.TitleForm,
       this.Sub1 = '',
       this.Sub2 = '',
       this.controller = ''})
@@ -28,7 +30,7 @@ class FormCheckboxView extends GetView {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+      // padding: EdgeInsets.symmetric(),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
@@ -68,7 +70,7 @@ class FormCheckboxView extends GetView {
     // required VoidCallback onClicked,
   }) =>
       Container(
-        width: 300,
+        width: 350,
         child: Obx(
           () => ListTile(
             trailing: Checkbox(
@@ -78,8 +80,8 @@ class FormCheckboxView extends GetView {
                   pemeriksaan.checkBool.value = !pemeriksaan.checkBool.value;
                   print(pemeriksaan.checkBool.value);
                 }),
-            title: Text(pemeriksaan.Title),
-            subtitle: Text('aaaa'),
+            title: Text(pemeriksaan.TitleForm,style: formTitle2),
+            subtitle: Text(pemeriksaan.SubTitle,style: formSub2,),
           ),
         ),
       );
@@ -88,11 +90,13 @@ class FormCheckboxView extends GetView {
 class FormCheckboxViewController extends GetxController {
   var abs = false.obs;
   var checkBool = false.obs;
-  String Title;
+  String TitleForm;
+
+  String SubTitle;
 
   // var value ;
 
-  FormCheckboxViewController({required this.Title});
+  FormCheckboxViewController({required this.TitleForm, required this.SubTitle});
 }
 
 // Widget buildCheckbox2({

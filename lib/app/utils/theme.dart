@@ -34,13 +34,22 @@ TextStyle button = GoogleFonts.poppins(
 TextStyle formTitle1 = GoogleFonts.poppins(
     fontWeight: FontWeight.bold, color: blackColor, fontSize: 24,  height: 1.25 );
 TextStyle formTitle2 = GoogleFonts.poppins(
-    fontWeight: FontWeight.bold, color: blackColor, fontSize: 18,);
+    fontWeight: FontWeight.w400, color: blackColor, fontSize: 18,);
+TextStyle formTitleBold2 = GoogleFonts.poppins(
+  fontWeight: FontWeight.bold, color: blackColor, fontSize: 18,);
+
+TextStyle formTitleSemi1 = GoogleFonts.poppins(
+    fontWeight: FontWeight.w600, color: blackColor, fontSize: 24,  height: 1.25 );
+TextStyle formTitleSemi2 = GoogleFonts.poppins(
+    fontWeight: FontWeight.w600, color: blackColor, fontSize: 18,  height: 1.6 );
 
 
 TextStyle formTitleItalic1 = GoogleFonts.poppins(
     fontWeight: FontWeight.bold, color: blackColor, fontSize: 24,  height: 1.25, fontStyle: FontStyle.italic );
+TextStyle formTitleItalic2 = GoogleFonts.poppins(
+  fontWeight: FontWeight.w400, color: blackColor, fontSize: 18,fontStyle: FontStyle.italic);
 TextStyle formSubItalic1 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w400, color: blackColor, fontSize: 14, height: 2.2, fontStyle: FontStyle.italic);
+    fontWeight: FontWeight.w500, color: blackColor, fontSize: 14, height: 2.2, fontStyle: FontStyle.italic);
 
 TextStyle formSub1 = GoogleFonts.poppins(
     fontWeight: FontWeight.w400, color: blackColor, fontSize: 14, height: 2.2);
