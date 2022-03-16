@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ship_certification/app/controllers/auth_controller.dart';
-import 'package:ship_certification/app/data/theme.dart';
+import 'package:ship_certification/app/utils/theme.dart';
 import '../controllers/login_page_controller.dart';
 
 class LoginPageView extends GetView<LoginPageController> {
@@ -50,7 +50,7 @@ class LoginPageView extends GetView<LoginPageController> {
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(18.0),
                       borderSide: BorderSide(
-                        color: purplecolor,
+                        color: primaryColor,
                       ),
                     ),
                   ),
@@ -77,7 +77,7 @@ class LoginPageView extends GetView<LoginPageController> {
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(18.0),
                           borderSide: BorderSide(
-                            color: purplecolor,
+                            color: primaryColor,
                           ),
                         ),
                         suffixIcon: IconButton(
@@ -85,7 +85,7 @@ class LoginPageView extends GetView<LoginPageController> {
                             controller.secureText.value
                                 ? Icons.visibility
                                 : Icons.visibility_off,
-                            color: purplecolor,
+                            color: primaryColor,
                           ),
                           onPressed: () {
                             controller.changeVisibility();
@@ -104,7 +104,7 @@ class LoginPageView extends GetView<LoginPageController> {
                   borderRadius: BorderRadius.circular(18.0),
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: purplecolor,
+                      primary: primaryColor,
                     ),
                     onPressed: () {
                       auth.login(

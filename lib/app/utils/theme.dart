@@ -1,14 +1,11 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 Color primaryColor = Color(0xff3F1871);
-
-double edge24 = 24;
 Color blackColor = Color(0xFF000000);
 Color whiteColor = Color(0xFFFFFFFF);
 
+double edge24 = 24;
 var defaultLargeMargin = 24.0;
 var defaultMargin = 18.0;
 var defaultSmallMargin = 9.0;
@@ -72,13 +69,25 @@ TextStyle purpleText = GoogleFonts.poppins(
 );
 
 TextStyle title3 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w500, color: blackColor, fontSize: 20);
+  fontWeight: FontWeight.w500,
+  color: blackColor,
+  fontSize: 20,
+);
 
 TextStyle finished = GoogleFonts.poppins(
-    fontWeight: FontWeight.w300, color: Colors.green, fontSize: 14);
+  fontWeight: FontWeight.w300,
+  color: Colors.green,
+  fontSize: 14,
+);
 
 TextStyle unFinished = GoogleFonts.poppins(
-    fontWeight: FontWeight.w300, color: Colors.red, fontSize: 14);
+  fontWeight: FontWeight.w300,
+  color: Colors.red,
+  fontSize: 14,
+);
 
 TextStyle button = GoogleFonts.poppins(
-    fontWeight: FontWeight.w300, color: whiteColor, fontSize: 24);
+  fontWeight: FontWeight.w300,
+  color: whiteColor,
+  fontSize: 24,
+);

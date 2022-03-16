@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
 import 'package:ship_certification/app/utils/theme.dart';
-
 import '../../../model/data/form_certificate.dart';
-import '../../../routes/app_pages.dart';
 import '../controllers/list_form_certificate_page_controller.dart';
 
 class ListFormCertificatePageView

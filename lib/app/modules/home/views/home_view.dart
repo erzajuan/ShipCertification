@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
-import 'package:ship_certification/app/modules/create_report_page/views/create_report_page_view.dart';
 import 'package:ship_certification/app/routes/app_pages.dart';
 import 'package:ship_certification/app/utils/theme.dart';
 import 'package:ship_certification/app/widgets/report_history_card.dart';
-
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
-  String _user = "Osama";
+  final String _user = "Osama";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
