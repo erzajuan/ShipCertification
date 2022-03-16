@@ -11,20 +11,27 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('CreateReportPageView'),
-        centerTitle: true,
-      ),
       body: Padding(
-        padding: EdgeInsets.all(edge24),
+        padding: EdgeInsets.symmetric(horizontal: edge24, vertical: 55),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Center(
-              child: Text(
-                'Buat Laporan',
-                style: header1,
-              ),
+            Row(
+              children: [
+                IconButton(
+                  onPressed: () => Get.back(),
+                  icon: Icon(Icons.arrow_back),
+                ),
+                SizedBox(
+                  width: 50,
+                ),
+                Center(
+                  child: Text(
+                    'Buat Laporan',
+                    style: header1,
+                  ),
+                ),
+              ],
             ),
             SizedBox(
               height: 100,

@@ -13,12 +13,8 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('HomeView'),
-        centerTitle: true,
-      ),
       body: Padding(
-        padding: EdgeInsets.all(edge24),
+        padding: EdgeInsets.symmetric(horizontal: edge24, vertical: 55),
         child: Column(
           children: [
             Center(

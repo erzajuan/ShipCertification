@@ -37,7 +37,7 @@ TextStyle header2 = GoogleFonts.poppins(
 TextStyle daftarForm = GoogleFonts.poppins(
   color: blackColor,
   fontSize: 18,
-  fontWeight: reguler,
+  fontWeight: medium,
 );
 
 TextStyle normal = GoogleFonts.poppins(
