@@ -3,14 +3,14 @@ import 'package:get/get.dart';
 
 import '../../../utils/theme.dart';
 
-class FormFieldView extends GetView {
+class WidgetFormFieldView extends GetView {
   final String Title;
 
   final String? Sub1;
   final String? Sub2;
   final TextEditingController controller;
 
-  FormFieldView(
+  WidgetFormFieldView(
       {Key? key,
       required this.Title,
       this.Sub1,

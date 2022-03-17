@@ -35,7 +35,7 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.FORM_KONTRUKSI,
-      page: () => FormFieldiView(),
+      page: () => FormKontruksiView(),
       binding: FormKontruksiBinding(),
     ),
   ];
