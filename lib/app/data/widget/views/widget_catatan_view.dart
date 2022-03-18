@@ -27,7 +27,7 @@ class WidgetCatatanView extends GetView {
       this.Sub1,
       this.Sub2,
       required this.controllerRegulasi,
-      required this.controllerKeterangan})
+      required this.controllerKeterangan,})
       : super(key: key);
 
   @override

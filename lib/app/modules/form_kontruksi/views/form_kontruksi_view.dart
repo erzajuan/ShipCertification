@@ -306,13 +306,282 @@ REGULATION OF MINISTRY OF TRANSPORTATION NO. : KM 65 TAHUN 2009
             Text('*Bab VI dokumen NCVS', style: formSubItalic1),
 
             WidgetCatatanView(
-              terpilih: "a".obs,
+              terpilih: controller.terpilih9_1,
               Title: '9.1 Kesesuaian Marka Dengan SertifikatGaris Muat',
               Sub1:
                   "Load line is marked according to the load line certificate",
               controllerRegulasi: controller.controllerKesesuaianMarka1,
               controllerKeterangan: controller.controllerKesesuaianMarka2,
             ),
+            WidgetCatatanView(
+              terpilih: controller.terpilih9_2,
+              Title: '9.2 Penandaan Dapat Dilihat Dengan Jelas',
+              Sub1:
+              "The marking can be seen clearly", Sub2: '*SK dirjen No. /2012 Psl 122(6), Bab VI Seksi18 dok. NCVS, Bab VI App 1,2 dan 3 dokNCVS',
+              controllerRegulasi: controller.controllerPenandaanDapatDilihat1,
+              controllerKeterangan: controller.controllerPenandaanDapatDilihat2,
+            ),
+
+            Text('10. Konstruksi Lambung Kapal ', style: formTitle2),
+            Text('Ship’s Hull Construction ', style: formTitleItalic2),
+            Text('*Bab II Bagian B dok. NCVS', style: formSubItalic1),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_1,
+              Title: '10.1 Jumlah Sekat Pada Kamar Mesin (untuk kapal dengan mesin di dalam)',
+              Sub1:
+              "Number of bulkhead (for inboard engine)",
+              controllerRegulasi: controller.controllerJumlahSekat1,
+              controllerKeterangan: controller.controllerJumlahSekat2,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_2,
+              Title: '10.2 Jendela Cahaya dengan kondisi yang baik',
+              Sub1:
+              "Skylight is in good condition",Sub2: '*Bab II Seksi 11.10 dan 33.8, dok. NCVS',
+              controllerRegulasi: controller.controllerJendelaCahaya1,
+              controllerKeterangan: controller.controllerJendelaCahaya2,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_3,
+              Title: '10.3 Kondisi Sekat Tubrukan Yang Dapat Dilihat',
+              Sub1:
+              "Condition of ship’s collision bulkhead that can be seen" ,Sub2: '*Bab II Bag. B Seksi 7.4 dok. NCVS',
+              controllerRegulasi: controller.controllerJendelaCahaya1,
+              controllerKeterangan: controller.controllerJendelaCahaya2,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_4,
+              Title: '10.4 Kondisi Sekat Kedap Air Yang Dapat Dilihat',
+              Sub1:
+              "Condition of ship’s watertight bulkhead that can be seen",Sub2: '*Bab II Bag. B Seksi 7.5 dok. NCVS',
+              controllerRegulasi: controller.controllerKondisiSekatKedap1,
+              controllerKeterangan: controller.controllerKondisiSekatKedap2,
+            ),
+
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_5,
+              Title: '10.5 Kondisi Kekedapan Cuaca Pada Geladak Kapal',
+              Sub1:
+              "The ship’s deck weather tight condition",Sub2: '*SK dirjen No. /2012 Pasal 10(5)',
+              controllerRegulasi: controller.controllerKondisiKekedapanCuaca1,
+              controllerKeterangan: controller.controllerKondisiKekedapanCuaca2,
+            ),
+
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_6,
+              Title: '10.6 Penempatan Tingkap Sisi Dilambung Kapal, Minimal Berjarak 500mm Diatas Desain Garis Muat.',
+              Sub1:
+              "The placements of ship’s side scuttle minimum 500mm above the loadline mark.",Sub2: '*SK dirjen No. /2012 Psl 132, Bab II Bag. B Seksi 7.8 dok. NCVS',
+              controllerRegulasi: controller.controllerJendelaCahaya1,
+              controllerKeterangan: controller.controllerJendelaCahaya2,
+            ),
+
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_7,
+              Title: '10.7 Kapal Dilengkapi Dengan Pagar dan Kubu-kubu Dengan Tinggi Sesuai Ketentuan Garis Muat',
+              Sub1:
+              "The ship’s deck railings and bulwark are designed as load line requirement",Sub2: '*SK dirjen No. /2012 Pasal 134',
+              controllerRegulasi: controller.controller10_7a,
+              controllerKeterangan: controller.controller10_7b,
+            ),
+
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_8,
+              Title: '10.8 Jumlah Ruang Muat / Tangki ',
+              Sub1:
+              "Number of Tank / Cargo Hold(s) ",Sub2: '*SK dirjen No. /2012 Psl 1(70)',
+              controllerRegulasi: controller.controller10_8a,
+              controllerKeterangan: controller.controller10_8b,
+            ),
+
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_9,
+              Title: '10.9 Jenis Ruang Muat ',
+              Sub1:
+              "Type of tank/cargo hold",Sub2: '*SK dirjen No. /2012 Psl 1(70)',
+              controllerRegulasi: controller.controller10_9a,
+              controllerKeterangan: controller.controller10_9b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_10,
+              Title: '10.10 Kondisi Ruang Muat / Tangki',
+              Sub1:
+              "Number of Tank / Cargo Hold(s) ",Sub2: '*SK dirjen No. /2012 Psl 1(70)',
+              controllerRegulasi: controller.controller10_10a,
+              controllerKeterangan: controller.controller10_10b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_11,
+              Title: '10.11 Kondisi Got-got Ruang Muat ',
+              Sub1:
+              "Condition of cargo hold bilges ",Sub2: '*SK dirjen No. /2012 Psl 19',
+              controllerRegulasi: controller.controller10_11a,
+              controllerKeterangan: controller.controller10_11b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_12,
+              Title: '10.12 Kondisi Pompa Got Ruang Muat ',
+              Sub1:
+              "Condition of cargo hold bilge pump  ",Sub2: '*SK dirjen No. /2012 Pasal 19',
+              controllerRegulasi: controller.controller10_12a,
+              controllerKeterangan: controller.controller10_12b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_13,
+              Title: '10.13 Kondisi Akses Jalan / Tangga Keluar dan Masuk Ruang Muatan',
+              Sub1:
+              "Condition of cargo holds access",
+              controllerRegulasi: controller.controller10_13a,
+              controllerKeterangan: controller.controller10_13b,
+            ),
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_14,
+              Title: '10.14 Akses jalan keruang muat dilengkapi dengan penutup kedap cuaca',
+              Sub1:
+              "The access to cargo holds through weather tight cover/door",
+              controllerRegulasi: controller.controller10_14a,
+              controllerKeterangan: controller.controller10_14b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_15,
+              Title: '10.15 Jenis tutup palka',
+              Sub1:
+              "Type of hatch cover",
+              controllerRegulasi: controller.controller10_15a,
+              controllerKeterangan: controller.controller10_15b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_16,
+              Title: '10.16 Kondisi tutup-tutup palka',
+              Sub1:
+              "The condition of hatch covers",Sub2: '*Bab V Seksi 8.9, 8.11 dokumen NCVS',
+              controllerRegulasi: controller.controller10_16a,
+              controllerKeterangan: controller.controller10_16b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_17,
+              Title: '10.17 Kondisi tempat untuk mengikat muatan didalam palka',
+              Sub1:
+              "The condition of pad eye or lashing point to lash the cargo in the hold",
+              controllerRegulasi: controller.controller10_17a,
+              controllerKeterangan: controller.controller10_17b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_18,
+              Title: '10.18 Kondisi tempat untuk mengikat muatan digeladak ',
+              Sub1:
+              "The condition of pad eye or lashing point to lash the cargo on deck",
+              controllerRegulasi: controller.controller10_18a,
+              controllerKeterangan: controller.controller10_18b,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_19,
+              Title: '10.19 Ruang muat dilengkapi dengan ventilasi',
+              Sub1:
+              "The ship’s cargo holds are equipped with ventilation",Sub2: '*Bab V Seksi 9.15 dok. NCVS',
+              controllerRegulasi: controller.controller10_19a,
+              controllerKeterangan: controller.controller10_19b,
+            ),
+
+
+            Text("10.23 Sistem pengoperasian :"),
+            Text("Operation system :"),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_23a,
+              Title: 'A. alami / Natural',
+              controllerRegulasi: controller.controller10_23aReg,
+              controllerKeterangan: controller.controller10_23aKet,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_23a,
+              Title: 'A. alami / Natural',
+              controllerRegulasi: controller.controller10_23aReg,
+              controllerKeterangan: controller.controller10_23aKet,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_23a,
+              Title: 'A. alami / Natural',
+              controllerRegulasi: controller.controller10_23aReg,
+              controllerKeterangan: controller.controller10_23aKet,
+            ),
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_23a,
+              Title: 'A. alami / Natural',
+              controllerRegulasi: controller.controller10_23aReg,
+              controllerKeterangan: controller.controller10_23aKet,
+            ),
+
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_12,
+              Title: 'abc',
+              Sub1:
+              "abc",Sub2: 'abc',
+              controllerRegulasi: controller.controller10_12a,
+              controllerKeterangan: controller.controller10_12b,
+            ),
+
+
+
+
+
+
+
+            WidgetCatatanView(
+              terpilih: controller.terpilih10_12,
+              Title: 'abc',
+              Sub1:
+              "abc",Sub2: 'abc',
+              controllerRegulasi: controller.controller10_12a,
+              controllerKeterangan: controller.controller10_12b,
+            ),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             SizedBox(
               height: 100,

@@ -91,25 +91,136 @@ class FormKontruksiController extends GetxController {
   TextEditingController controllerKesesuaianMarka2 = TextEditingController();
   var terpilih9_1 = "NA".obs;
 
+
+  TextEditingController controllerPenandaanDapatDilihat1 = TextEditingController();
+  TextEditingController controllerPenandaanDapatDilihat2 = TextEditingController();
+  var terpilih9_2 = "NA".obs;
+
+
+  TextEditingController controllerJumlahSekat1 = TextEditingController();
+  TextEditingController controllerJumlahSekat2 = TextEditingController();
+  var terpilih10_1 = "NA".obs;
+
+
+  TextEditingController controllerJendelaCahaya1 = TextEditingController();
+  TextEditingController controllerJendelaCahaya2 = TextEditingController();
+  var terpilih10_2 = "NA".obs;
+
+  TextEditingController controllerondisiSekat1 = TextEditingController();
+  TextEditingController controllerondisiSekat2 = TextEditingController();
+  var terpilih10_3 = "NA".obs;
+
+  TextEditingController controllerKondisiSekatKedap1 = TextEditingController();
+  TextEditingController controllerKondisiSekatKedap2 = TextEditingController();
+  var terpilih10_4 = "NA".obs;
+
+  TextEditingController controllerKondisiKekedapanCuaca1 = TextEditingController();
+  TextEditingController controllerKondisiKekedapanCuaca2 = TextEditingController();
+  var terpilih10_5 = "NA".obs;
+
+  TextEditingController controllerPenempatanTingkap1 = TextEditingController();
+  TextEditingController controllerPenempatanTingkap2 = TextEditingController();
+  var terpilih10_6 = "NA".obs;
+
+
+  TextEditingController controller10_7a = TextEditingController();
+  TextEditingController controller10_7b = TextEditingController();
+  var terpilih10_7 = "NA".obs;
+
+  TextEditingController controller10_8a = TextEditingController();
+  TextEditingController controller10_8b = TextEditingController();
+  var terpilih10_8 = "NA".obs;
+
+  TextEditingController controller10_9a = TextEditingController();
+  TextEditingController controller10_9b= TextEditingController();
+  var terpilih10_9 = "NA".obs;
+
+  TextEditingController controller10_10a= TextEditingController();
+  TextEditingController controller10_10b = TextEditingController();
+  var terpilih10_10 = "NA".obs;
+
+  TextEditingController controller10_11a= TextEditingController();
+  TextEditingController controller10_11b= TextEditingController();
+  var terpilih10_11 = "NA".obs;
+
+  TextEditingController controller10_12a = TextEditingController();
+  TextEditingController controller10_12b= TextEditingController();
+  var terpilih10_12 = "NA".obs;
+
+  TextEditingController controller10_13a= TextEditingController();
+  TextEditingController controller10_13b= TextEditingController();
+  var terpilih10_13 = "NA".obs;
+
+  TextEditingController controller10_14a= TextEditingController();
+  TextEditingController controller10_14b= TextEditingController();
+  var terpilih10_14 = "NA".obs;
+
+  TextEditingController controller10_15a= TextEditingController();
+  TextEditingController controller10_15b= TextEditingController();
+  var terpilih10_15 = "NA".obs;
+
+  TextEditingController controller10_16a= TextEditingController();
+  TextEditingController controller10_16b= TextEditingController();
+  var terpilih10_16 = "NA".obs;
+
+  TextEditingController controller10_17a= TextEditingController();
+  TextEditingController controller10_17b= TextEditingController();
+  var terpilih10_17 = "NA".obs;
+
+  TextEditingController controller10_18a= TextEditingController();
+  TextEditingController controller10_18b= TextEditingController();
+  var terpilih10_18 = "NA".obs;
+
+  TextEditingController controller10_19a= TextEditingController();
+  TextEditingController controller10_19b= TextEditingController();
+  var terpilih10_19 = "NA".obs;
+
+  TextEditingController controller10_23aReg= TextEditingController();
+  TextEditingController controller10_23aKet= TextEditingController();
+  var terpilih10_23a = "NA".obs;
+
+  // TextEditingController controller10_23aReg= TextEditingController();
+  // TextEditingController controller10_23aKet= TextEditingController();
+  // var terpilih10_23b = "NA".obs;
+
+
+  late TextEditingController controller10_24a;
+  TextEditingController controller10_24b= TextEditingController();
+  var terpilih10_24 = "NA".obs;
+
+
+
+
+
+
+
+
+
 //
-  var pemeriksaanTerpilih1 = "1".obs;
-  var pemeriksaanTerpilih2 = "2".obs;
+  var pemeriksaanTerpilih1 = "Pemeriksaan Pertama".obs;
+  var pemeriksaanTerpilih2 = "Pemeriksaan Pertama".obs;
 
   final count = 0.obs;
   final formkey = GlobalKey<FormBuilderState>();
 
   @override
   void onInit() {
+
+ controller10_21a =  TextEditingController();
+
+
     super.onInit();
   }
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
+  // @override
+  // void onReady() {
+  //   super.onReady();
+  // }
 
   @override
-  void onClose() {}
+  void onClose() {
+    controller10_21a.dispose();
+  }
 
   void increment() => count.value++;
 }
