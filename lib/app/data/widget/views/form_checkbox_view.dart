@@ -8,20 +8,22 @@ class FormCheckboxView extends GetView {
   //     Get.put(FormCheckboxViewController(Title: '', SubTitle: ''));
 
   final pemeriksaan = Get.put([
-    FormCheckboxViewController(TitleForm: 'Pemeriksaan Tahunan', SubTitle: 'Initial Inspection',  ),
+    FormCheckboxViewController(TitleForm: 'Pemeriksaan Tahunan', SubTitle: 'Initial Inspection',   ),
     FormCheckboxViewController(TitleForm: 'Pemeriksaan Pembaharuan', SubTitle: 'Renewal Inspection'),
     FormCheckboxViewController(TitleForm: 'Pemeriksaan Antara', SubTitle: 'Intermediate Inspection'),
     FormCheckboxViewController(TitleForm: 'Pemeriksaan Tambahan', SubTitle: 'Additional Inspection'),
   ]);
 
-final String TitleForm;
+
+
   final String? Sub1;
   final String? Sub2;
   final String controller;
 
   FormCheckboxView(
       {Key? key,
-required this.TitleForm,
+
+
       this.Sub1 = '',
       this.Sub2 = '',
       this.controller = ''})
@@ -46,19 +48,6 @@ required this.TitleForm,
     );
   }
 
-  // Widget buildCheckbox() => Scaffold(
-  //       body: Center(
-  //         child: Obx(
-  //           () => CheckboxListTile(
-  //               title: Text(Title),
-  //               value: ctrl.checkBool.value,
-  //               onChanged: (value) {
-  //                 ctrl.checkBool.value = !ctrl.checkBool.value;
-  //                 print(ctrl.checkBool.value);
-  //               }),
-  //         ),
-  //       ),
-  //     );
 
   Widget buildSingleCheckBox(FormCheckboxViewController pemeriksaan) =>
       buildCheckbox2(
@@ -78,7 +67,7 @@ required this.TitleForm,
                 onChanged: (value) {
                   // onClicked;
                   pemeriksaan.checkBool.value = !pemeriksaan.checkBool.value;
-                  print(pemeriksaan.checkBool.value);
+                  print("${pemeriksaan.TitleForm} : ${pemeriksaan.checkBool.value}");
                 }),
             title: Text(pemeriksaan.TitleForm,style: formTitle2),
             subtitle: Text(pemeriksaan.SubTitle,style: formSub2,),
@@ -91,12 +80,12 @@ class FormCheckboxViewController extends GetxController {
   var abs = false.obs;
   var checkBool = false.obs;
   String TitleForm;
-
   String SubTitle;
+
 
   // var value ;
 
-  FormCheckboxViewController({required this.TitleForm, required this.SubTitle});
+  FormCheckboxViewController({required this.TitleForm, required this.SubTitle, });
 }
 
 // Widget buildCheckbox2({
