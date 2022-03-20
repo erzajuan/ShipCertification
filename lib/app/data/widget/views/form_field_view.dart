@@ -22,7 +22,7 @@ class FormFieldView extends GetView {
   Widget build(BuildContext context) {
     return Container(
       width: 714,
-      padding: EdgeInsets.symmetric(vertical: 8),
+      padding: EdgeInsets.symmetric(vertical: 28),
       child: Column(
         children: <Widget>[
           Container(

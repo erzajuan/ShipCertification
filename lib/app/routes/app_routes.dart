@@ -9,6 +9,7 @@ abstract class Routes {
   static const LIST_FORM_CERTIFICATE = _Paths.LIST_FORM_CERTIFICATE;
   static const LIST_FORM_CERTIFICATE_PAGE = _Paths.LIST_FORM_CERTIFICATE_PAGE;
   static const FORM_KONTRUKSI = _Paths.FORM_KONTRUKSI;
+  static const FORM_RADIO = _Paths.FORM_RADIO;
 }
 
 abstract class _Paths {
@@ -19,4 +20,5 @@ abstract class _Paths {
   static const LIST_FORM_CERTIFICATE = '/list-form-certificate';
   static const LIST_FORM_CERTIFICATE_PAGE = '/list-form-certificate-page';
   static const FORM_KONTRUKSI = '/form-kontruksi';
+  static const FORM_RADIO = '/form-radio';
 }
