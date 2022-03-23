@@ -13,9 +13,10 @@ class WidgetCatatanView extends GetView {
     print('${Title} : ${pilihan}');
   }
 
-  final String Title;
+  final String? Title;
   final String? Sub1;
   final String? Sub2;
+  final String? titleInduk;
   final TextEditingController controllerRegulasi;
   final TextEditingController controllerKeterangan;
   final terpilih;
@@ -23,9 +24,11 @@ class WidgetCatatanView extends GetView {
   WidgetCatatanView(
       {Key? key,
       required this.terpilih,
-      required this.Title,
+        required this.Title,
       this.Sub1,
       this.Sub2,
+        this.titleInduk,
+
       required this.controllerRegulasi,
       required this.controllerKeterangan,})
       : super(key: key);
