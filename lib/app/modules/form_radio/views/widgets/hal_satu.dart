@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/simple/get_view.dart';
 import 'package:ship_certification/app/data/widget/views/radio_left_label_widget.dart';
 
-import '../../../data/widget/views/widget_form_field_view.dart';
-import '../../../utils/theme.dart';
-import '../controllers/form_radio_controller.dart';
+import '../../../../data/widget/views/widget_form_field_view.dart';
+import '../../../../utils/theme.dart';
+import '../../controllers/form_radio_controller.dart';
 
 class HalSatu extends GetView<FormRadioController> {
   var ctrl = FormRadioController();
@@ -72,8 +72,7 @@ REGULATION OF MINISTRY OF TRANSPORTATION NO. : KM 65 TAHUN 2009
               style: formTitle1,
             ),
             Text(
-              """ MINISTRY OF TRANSPORTATION
-                              """,
+              """MINISTRY OF TRANSPORTATION""",
               textAlign: TextAlign.center,
               style: formTitleItalic2,
             ),
@@ -82,17 +81,17 @@ REGULATION OF MINISTRY OF TRANSPORTATION NO. : KM 65 TAHUN 2009
               style: formTitle1,
             ),
             Text(
-              """ DIRECTORATE GENERAL OF SEA TRANSPORTATION""",
+              """DIRECTORATE GENERAL OF SEA TRANSPORTATION""",
               textAlign: TextAlign.center,
               style: formTitleItalic2,
             ),
             Text(
-              """ DIREKTORAT PERKAPALAN DAN KEPELAUTAN""",
+              """DIREKTORAT PERKAPALAN DAN KEPELAUTAN""",
               textAlign: TextAlign.center,
               style: formTitle2,
             ),
             Text(
-              """ DIRECTORATE OF MARINE SAFETY""",
+              """DIRECTORATE OF MARINE SAFETY""",
               textAlign: TextAlign.center,
               style: formTitleItalic2,
             ),
