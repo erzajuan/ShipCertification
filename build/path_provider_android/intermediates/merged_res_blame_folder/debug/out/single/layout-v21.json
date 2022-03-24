@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\ShipCertification\\build\\path_provider_android\\intermediates\\merged_res\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\10152ccd1e16bf9bd032c5348e3a2968\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\ShipCertification\\build\\path_provider_android\\intermediates\\merged_res\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\10152ccd1e16bf9bd032c5348e3a2968\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\ShipCertification\\build\\path_provider_android\\intermediates\\merged_res\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\10152ccd1e16bf9bd032c5348e3a2968\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\ShipCertification\\build\\path_provider_android\\intermediates\\merged_res\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\10152ccd1e16bf9bd032c5348e3a2968\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

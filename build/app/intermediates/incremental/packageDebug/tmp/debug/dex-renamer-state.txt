@@ -1,0 +1,7 @@
+#Fri Mar 25 00:13:47 ICT 2022
+base.1=D\:\\ShipCertification\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+path.1=classes2.dex
+base.0=D\:\\ShipCertification\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
