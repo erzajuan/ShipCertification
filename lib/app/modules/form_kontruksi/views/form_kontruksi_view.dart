@@ -1,7 +1,9 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ship_certification/app/utils/theme.dart';
 
+import '../../../data/widget/views/form_checkbox_view.dart';
 import '../../../data/widget/views/widget_catatan_big_view.dart';
 import '../../../data/widget/views/widget_catatan_view.dart';
 import '../../../data/widget/views/widget_form_field_view.dart';
@@ -14,6 +16,7 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
       content: Container(
         child: Column(
           children: <Widget>[
+            Text(controller.abc.value),
             Text(controller.pemeriksaanTerpilih1.value),
             Text(controller.pemeriksaanTerpilih2.value),
             Text(controller.terpilih1.value),
@@ -1746,7 +1749,7 @@ REGULATION OF MINISTRY OF TRANSPORTATION NO. : KM 65 TAHUN 2009
             WidgetCatatanBigView(Title: 'Rekomendasi', controller: controller.controllerRekomendasi),
             WidgetCatatanBigView(Title: 'Tindak Lanjut', controller: controller.controllerTindakLanjut,),
 
-            
+            FormCheckboxView(checkBool: controller.abc,),
             
             
             

@@ -18,12 +18,13 @@ class FormCheckboxView extends GetView {
 
   final String? Sub1;
   final String? Sub2;
+  var checkBool ;
   final String controller;
 
   FormCheckboxView(
       {Key? key,
 
-
+ this.checkBool,
       this.Sub1 = '',
       this.Sub2 = '',
       this.controller = ''})
