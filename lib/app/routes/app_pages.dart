@@ -17,7 +17,7 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.FORM_KONTRUKSI;
+  static const INITIAL = Routes.FORM_RADIO;
 
   static final routes = [
     GetPage(

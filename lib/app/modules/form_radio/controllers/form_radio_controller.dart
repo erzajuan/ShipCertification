@@ -6,6 +6,8 @@ class FormRadioController extends GetxController {
   TextEditingController controllerNamaKapal = TextEditingController();
   TextEditingController controllerPemilik = TextEditingController();
   TextEditingController controllerPelabuhan = TextEditingController();
+  var terpilihHal1 = "NA".obs;
+
   final count = 0.obs;
   @override
   void onInit() {

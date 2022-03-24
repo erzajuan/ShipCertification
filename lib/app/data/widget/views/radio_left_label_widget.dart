@@ -54,7 +54,7 @@ class RadioLeftLabelWidget extends GetView {
               SizedBox(
                 width: 27,
               ),
-              if (radio3 == "") ...{
+              if (radio3 != "") ...{
                 Text(radio3 ?? ""),
                 Obx(
                   () => Radio(
@@ -71,7 +71,7 @@ class RadioLeftLabelWidget extends GetView {
               SizedBox(
                 width: 27,
               ),
-              if (radio4 == "") ...{
+              if (radio4 != "") ...{
                 Text(radio4 ?? ""),
                 Obx(
                   () => Radio(
