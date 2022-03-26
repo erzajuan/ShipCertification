@@ -1,13 +1,88 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:get/get.dart';
 
 class FormKontruksiController extends GetxController {
+  FirebaseFirestore firestore = FirebaseFirestore.instance;
+
+  var kapal = "Merry";
+  var tanggal = "27 Maret 2022";
+  DocumentSnapshot<Object?>? data = null;
+
+  Stream<DocumentSnapshot<Object?>> streamData() {
+    DocumentReference formKonstruksi = firestore
+        .collection("kapal")
+        .doc(kapal)
+        .collection("form_konstruksi")
+        .doc(tanggal);
+
+    return formKonstruksi.snapshots();
+  }
+
+  void addFormKonstruksi(
+    String namaKapal,
+    String pemilik,
+    String pelabuhan,
+    String daerah,
+    String pemeriksaanTerpilih1,
+    String no,
+    String tanggal,
+    String tandaPanggilan,
+    String kebangsaanPendaftar,
+    String beratKotor,
+    String tanggalPeletakanLunas,
+    String noKlasifikasi,
+    String jenisKapal,
+    String namaNAlamatPemelik,
+  ) async {
+    DocumentReference formKonstruksi = firestore
+        .collection("kapal")
+        .doc(kapal)
+        .collection("form_konstruksi")
+        .doc(tanggal);
+
+    try {
+      await formKonstruksi.set(
+        {
+          "nama_kapal": namaKapal,
+          "pemilik": pemilik,
+          "pelabuhan": pelabuhan,
+          "daerah": daerah,
+          "pemeriksaanTerpilih1": pemeriksaanTerpilih1,
+          "no": no,
+          "tanggal": tanggal,
+          "tanda_panggilan": tandaPanggilan,
+          "kebangsaan_pendaftar": kebangsaanPendaftar,
+          "berat_kotor": beratKotor,
+          "tanggal_peletakan_lunas": tanggalPeletakanLunas,
+          "no_klasifikasi": noKlasifikasi,
+          "jenis_kapal": jenisKapal,
+          "nama_dan_alamat_pemilik": namaNAlamatPemelik,
+        },
+      );
+      Get.defaultDialog(
+        title: "Berhasil",
+        middleText: "Berhasil Menambahkan Data",
+        textConfirm: "OK",
+      );
+    } catch (e) {
+      print(e);
+      Get.defaultDialog(
+        title: "Error",
+        middleText: "Tidak Berhasil Menambahkan Data",
+        textConfirm: "OK",
+      );
+    }
+  }
+
   //1
   var controllerNamaKapal = TextEditingController();
   var controllerPemilik = TextEditingController();
   var controllerPelabuhan = TextEditingController();
   var controllerDaerah = TextEditingController();
+
+  var pemeriksaanTerpilih1 = "Pemeriksaan Pertama".obs;
 
   //2
   var controllerNo = TextEditingController();
@@ -573,7 +648,7 @@ class FormKontruksiController extends GetxController {
   var abc = "false".obs;
 
 //
-  var pemeriksaanTerpilih1 = "Pemeriksaan Pertama".obs;
+
   var pemeriksaanTerpilih2 = "Pemeriksaan Pertama".obs;
 
   final count = 0.obs;
