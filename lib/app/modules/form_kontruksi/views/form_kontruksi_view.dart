@@ -45,6 +45,950 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                 "${(controller.data!.data() as Map<String, dynamic>)["jenis_kapal"]}"),
             Text(
                 "${(controller.data!.data() as Map<String, dynamic>)["nama_dan_alamat_pemilik"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["pemeriksaanTerpilih2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerInformasiStabilitas1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerInformasiStabilitas2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPemuatan1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPemuatan2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganUmum1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganUmum2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancangKeselamatan1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancangKeselamatan2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganKebakaran1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganKebakaran2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPeningkatanMuatan1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPeningkatanMuatan2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerCatatanKesesuaian1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerCatatanKesesuaian2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerBajaSteel1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerBajaSteel2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerAlumunium1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerAlumunium2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerFiber1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerFiber2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKayu1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKayu2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerFerroCement1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerFerroCement2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerBahanLainnya1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerBahanLainnya2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKesesuaianMarka1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKesesuaianMarka2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPenandaanDapatDilihat1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPenandaanDapatDilihat2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerJumlahSekat1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerJumlahSekat2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerJendelaCahaya1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerJendelaCahaya2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerondisiSekat1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerondisiSekat2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiSekatKedap1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiSekatKedap2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiKekedapanCuaca1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiKekedapanCuaca2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPenempatanTingkap1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPenempatanTingkap2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_7a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_7b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_8a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_8b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_9a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_9b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_10a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_10b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_11a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_11b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_12a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_12b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_13a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_13b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_14a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_14b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_15a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_15b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_16a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_16b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_17a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_17b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_18a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_18b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_19a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_19b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_23aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_23aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_23bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_23bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24eReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24eKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24fReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24fKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24gReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24gKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24hReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24hKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24iReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24iKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_25Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_25Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_26Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_26Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_27Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_27Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_28Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_28Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_29Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_29Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_9Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_9Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_10Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_10Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_9Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_9Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_10Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_10Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1eReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1eKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1fReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1fKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_9Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_9Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_10Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_10Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1eReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1eKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1fReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1fKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2eReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2eKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2fReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2fKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_9Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_9Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_10Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_10Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_11Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_11Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_12Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_12Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_13Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_13Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_14Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_14Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_15Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_15Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_16Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_16Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_17Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_17Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_18Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_18Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_19Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_19Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_20Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_20Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_22Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_22Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_23Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_23Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_24Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_24Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_25Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_25Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerTanggalPemeriksaan"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerNIP"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerShipsName"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerCallSign"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGrossTonnage"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerYearBuilding"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerTypeShips"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPorRegitry"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerOwner"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerTypeInspection"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerRekomendasi"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerTindakLanjut"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih9_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih9_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_11"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_12"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_13"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_14"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_15"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_16"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_17"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_18"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_19"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_23a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_23b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24e"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24f"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24g"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24h"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24i"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_25"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_26"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_27"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_28"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_29"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1e"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1f"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_11a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_11b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_3a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_3b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1e"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1f"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2e"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2f"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_11"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_12"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_13"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_14"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_15"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_16"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_17"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_18"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_19"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_20"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_22"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_23"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_24"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_25"]}"),
           ],
         ),
       ),
@@ -88,6 +1032,950 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                 "${(controller.data!.data() as Map<String, dynamic>)["jenis_kapal"]}"),
             Text(
                 "${(controller.data!.data() as Map<String, dynamic>)["nama_dan_alamat_pemilik"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["pemeriksaanTerpilih2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerInformasiStabilitas1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerInformasiStabilitas2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPemuatan1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPemuatan2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganUmum1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganUmum2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancangKeselamatan1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancangKeselamatan2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganKebakaran1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganKebakaran2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPeningkatanMuatan1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPeningkatanMuatan2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerCatatanKesesuaian1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerCatatanKesesuaian2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerBajaSteel1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerBajaSteel2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerAlumunium1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerAlumunium2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerFiber1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerFiber2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKayu1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKayu2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerFerroCement1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerFerroCement2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerBahanLainnya1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerBahanLainnya2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKesesuaianMarka1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKesesuaianMarka2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPenandaanDapatDilihat1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPenandaanDapatDilihat2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerJumlahSekat1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerJumlahSekat2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerJendelaCahaya1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerJendelaCahaya2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerondisiSekat1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerondisiSekat2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiSekatKedap1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiSekatKedap2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiKekedapanCuaca1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiKekedapanCuaca2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPenempatanTingkap1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPenempatanTingkap2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_7a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_7b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_8a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_8b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_9a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_9b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_10a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_10b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_11a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_11b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_12a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_12b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_13a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_13b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_14a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_14b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_15a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_15b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_16a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_16b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_17a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_17b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_18a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_18b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_19a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_19b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_23aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_23aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_23bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_23bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24eReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24eKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24fReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24fKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24gReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24gKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24hReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24hKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24iReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_24iKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_25Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_25Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_26Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_26Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_27Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_27Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_28Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_28Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_29Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller10_29Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller11_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_9Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_9Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_10Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller12_10Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_9Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_9Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_10Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controller13_10Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1eReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1eKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1fReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1fKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_9Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_9Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_10Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_10Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1eReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1eKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1fReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1fKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2eReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2eKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2fReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2fKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1dReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1dKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_1Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_1Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_2Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_2Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_3Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_3Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_4Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_4Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_5Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_5Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_6Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_6Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_7Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_7Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_8Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_8Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_9Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_9Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_10Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_10Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_11Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_11Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_12Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_12Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_13Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_13Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_14Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_14Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_15Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_15Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_16Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_16Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_17Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_17Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_18Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_18Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_19Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_19Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_20Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_20Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21aReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21aKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21bReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21bKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21cReg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21cKet"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_22Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_22Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_23Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_23Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_24Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_24Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_25Reg"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_25Ket"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerIII4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerTanggalPemeriksaan"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerNIP"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerShipsName"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerCallSign"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerGrossTonnage"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerYearBuilding"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerTypeShips"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerPorRegitry"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerOwner"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerTypeInspection"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerRekomendasi"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["controllerTindakLanjut"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih9_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih9_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_11"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_12"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_13"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_14"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_15"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_16"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_17"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_18"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_19"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_23a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_23b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24e"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24f"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24g"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24h"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24i"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_25"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_26"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_27"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_28"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_29"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1e"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1f"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_11a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_11b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_3a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_3b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1e"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1f"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2e"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2f"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1d"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_1"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_2"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_3"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_4"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_5"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_6"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_7"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_8"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_9"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_10"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_11"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_12"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_13"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_14"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_15"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_16"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_17"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_18"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_19"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_20"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21a"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21b"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21c"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_22"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_23"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_24"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_25"]}"),
           ],
         ),
       ),
@@ -124,6 +2012,950 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
         "${(controller.data!.data() as Map<String, dynamic>)["jenis_kapal"]}";
     controller.controllerNamaNAlamatPemelik.text =
         "${(controller.data!.data() as Map<String, dynamic>)["nama_dan_alamat_pemilik"]}";
+    controller.pemeriksaanTerpilih2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["pemeriksaanTerpilih2"]}";
+    controller.controllerInformasiStabilitas1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerInformasiStabilitas1"]}";
+    controller.controllerInformasiStabilitas2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerInformasiStabilitas2"]}";
+    controller.controllerPedomanPemuatan1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPemuatan1"]}";
+    controller.controllerPedomanPemuatan2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPemuatan2"]}";
+    controller.controllerGambarRancanganUmum1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganUmum1"]}";
+    controller.controllerGambarRancanganUmum2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganUmum2"]}";
+    controller.controllerGambarRancangKeselamatan1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancangKeselamatan1"]}";
+    controller.controllerGambarRancangKeselamatan2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancangKeselamatan2"]}";
+    controller.controllerGambarRancanganKebakaran1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganKebakaran1"]}";
+    controller.controllerGambarRancanganKebakaran2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerGambarRancanganKebakaran2"]}";
+    controller.controllerPedomanPeningkatanMuatan1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPeningkatanMuatan1"]}";
+    controller.controllerPedomanPeningkatanMuatan2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPedomanPeningkatanMuatan2"]}";
+    controller.controllerCatatanKesesuaian1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerCatatanKesesuaian1"]}";
+    controller.controllerCatatanKesesuaian2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerCatatanKesesuaian2"]}";
+    controller.controllerBajaSteel1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerBajaSteel1"]}";
+    controller.controllerBajaSteel2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerBajaSteel2"]}";
+    controller.controllerAlumunium1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerAlumunium1"]}";
+    controller.controllerAlumunium2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerAlumunium2"]}";
+    controller.controllerFiber1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerFiber1"]}";
+    controller.controllerFiber2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerFiber2"]}";
+    controller.controllerKayu1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerKayu1"]}";
+    controller.controllerKayu2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerKayu2"]}";
+    controller.controllerFerroCement1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerFerroCement1"]}";
+    controller.controllerFerroCement2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerFerroCement2"]}";
+    controller.controllerBahanLainnya1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerBahanLainnya1"]}";
+    controller.controllerBahanLainnya2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerBahanLainnya2"]}";
+    controller.controllerKesesuaianMarka1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerKesesuaianMarka1"]}";
+    controller.controllerKesesuaianMarka2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerKesesuaianMarka2"]}";
+    controller.controllerPenandaanDapatDilihat1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPenandaanDapatDilihat1"]}";
+    controller.controllerPenandaanDapatDilihat2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPenandaanDapatDilihat2"]}";
+    controller.controllerJumlahSekat1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerJumlahSekat1"]}";
+    controller.controllerJumlahSekat2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerJumlahSekat2"]}";
+    controller.controllerJendelaCahaya1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerJendelaCahaya1"]}";
+    controller.controllerJendelaCahaya2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerJendelaCahaya2"]}";
+    controller.controllerondisiSekat1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerondisiSekat1"]}";
+    controller.controllerondisiSekat2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerondisiSekat2"]}";
+    controller.controllerKondisiSekatKedap1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiSekatKedap1"]}";
+    controller.controllerKondisiSekatKedap2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiSekatKedap2"]}";
+    controller.controllerKondisiKekedapanCuaca1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiKekedapanCuaca1"]}";
+    controller.controllerKondisiKekedapanCuaca2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerKondisiKekedapanCuaca2"]}";
+    controller.controllerPenempatanTingkap1.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPenempatanTingkap1"]}";
+    controller.controllerPenempatanTingkap2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPenempatanTingkap2"]}";
+    controller.controller10_7a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_7a"]}";
+    controller.controller10_7b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_7b"]}";
+    controller.controller10_8a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_8a"]}";
+    controller.controller10_8b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_8b"]}";
+    controller.controller10_9a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_9a"]}";
+    controller.controller10_9b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_9b"]}";
+    controller.controller10_10a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_10a"]}";
+    controller.controller10_10b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_10b"]}";
+    controller.controller10_11a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_11a"]}";
+    controller.controller10_11b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_11b"]}";
+    controller.controller10_12a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_12a"]}";
+    controller.controller10_12b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_12b"]}";
+    controller.controller10_13a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_13a"]}";
+    controller.controller10_13b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_13b"]}";
+    controller.controller10_14a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_14a"]}";
+    controller.controller10_14b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_14b"]}";
+    controller.controller10_15a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_15a"]}";
+    controller.controller10_15b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_15b"]}";
+    controller.controller10_16a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_16a"]}";
+    controller.controller10_16b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_16b"]}";
+    controller.controller10_17a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_17a"]}";
+    controller.controller10_17b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_17b"]}";
+    controller.controller10_18a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_18a"]}";
+    controller.controller10_18b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_18b"]}";
+    controller.controller10_19a.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_19a"]}";
+    controller.controller10_19b.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_19b"]}";
+    controller.controller10_23aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_23aReg"]}";
+    controller.controller10_23aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_23aKet"]}";
+    controller.controller10_23bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_23bReg"]}";
+    controller.controller10_23bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_23bKet"]}";
+    controller.controller10_24aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24aReg"]}";
+    controller.controller10_24aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24aKet"]}";
+    controller.controller10_24bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24bReg"]}";
+    controller.controller10_24bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24bKet"]}";
+    controller.controller10_24cReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24cReg"]}";
+    controller.controller10_24cKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24cKet"]}";
+    controller.controller10_24dReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24dReg"]}";
+    controller.controller10_24dKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24dKet"]}";
+    controller.controller10_24eReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24eReg"]}";
+    controller.controller10_24eKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24eKet"]}";
+    controller.controller10_24fReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24fReg"]}";
+    controller.controller10_24fKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24fKet"]}";
+    controller.controller10_24gReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24gReg"]}";
+    controller.controller10_24gKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24gKet"]}";
+    controller.controller10_24hReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24hReg"]}";
+    controller.controller10_24hKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24hKet"]}";
+    controller.controller10_24iReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24iReg"]}";
+    controller.controller10_24iKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_24iKet"]}";
+    controller.controller10_25Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_25Reg"]}";
+    controller.controller10_25Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_25Ket"]}";
+    controller.controller10_26Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_26Reg"]}";
+    controller.controller10_26Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_26Ket"]}";
+    controller.controller10_27Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_27Reg"]}";
+    controller.controller10_27Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_27Ket"]}";
+    controller.controller10_28Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_28Reg"]}";
+    controller.controller10_28Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_28Ket"]}";
+    controller.controller10_29Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_29Reg"]}";
+    controller.controller10_29Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller10_29Ket"]}";
+    controller.controller11_1Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_1Reg"]}";
+    controller.controller11_1Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_1Ket"]}";
+    controller.controller11_2Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_2Reg"]}";
+    controller.controller11_2Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_2Ket"]}";
+    controller.controller11_3Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_3Reg"]}";
+    controller.controller11_3Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_3Ket"]}";
+    controller.controller11_4Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_4Reg"]}";
+    controller.controller11_4Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_4Ket"]}";
+    controller.controller11_5Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_5Reg"]}";
+    controller.controller11_5Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller11_5Ket"]}";
+    controller.controller12_1Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_1Reg"]}";
+    controller.controller12_1Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_1Ket"]}";
+    controller.controller12_2Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_2Reg"]}";
+    controller.controller12_2Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_2Ket"]}";
+    controller.controller12_3Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_3Reg"]}";
+    controller.controller12_3Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_3Ket"]}";
+    controller.controller12_4Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_4Reg"]}";
+    controller.controller12_4Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_4Ket"]}";
+    controller.controller12_5Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_5Reg"]}";
+    controller.controller12_5Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_5Ket"]}";
+    controller.controller12_6Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_6Reg"]}";
+    controller.controller12_6Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_6Ket"]}";
+    controller.controller12_7Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_7Reg"]}";
+    controller.controller12_7Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_7Ket"]}";
+    controller.controller12_8Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_8Reg"]}";
+    controller.controller12_8Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_8Ket"]}";
+    controller.controller12_9Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_9Reg"]}";
+    controller.controller12_9Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_9Ket"]}";
+    controller.controller12_10Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_10Reg"]}";
+    controller.controller12_10Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller12_10Ket"]}";
+    controller.controller13_1Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_1Reg"]}";
+    controller.controller13_1Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_1Ket"]}";
+    controller.controller13_2Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_2Reg"]}";
+    controller.controller13_2Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_2Ket"]}";
+    controller.controller13_3Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_3Reg"]}";
+    controller.controller13_3Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_3Ket"]}";
+    controller.controller13_4Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_4Reg"]}";
+    controller.controller13_4Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_4Ket"]}";
+    controller.controller13_5Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_5Reg"]}";
+    controller.controller13_5Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_5Ket"]}";
+    controller.controller13_6Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_6Reg"]}";
+    controller.controller13_6Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_6Ket"]}";
+    controller.controller13_7Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_7Reg"]}";
+    controller.controller13_7Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_7Ket"]}";
+    controller.controller13_8Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_8Reg"]}";
+    controller.controller13_8Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_8Ket"]}";
+    controller.controller13_9Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_9Reg"]}";
+    controller.controller13_9Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_9Ket"]}";
+    controller.controller13_10Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_10Reg"]}";
+    controller.controller13_10Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controller13_10Ket"]}";
+    controller.controllerII_1aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1aReg"]}";
+    controller.controllerII_1aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1aKet"]}";
+    controller.controllerII_1bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1bReg"]}";
+    controller.controllerII_1bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1bKet"]}";
+    controller.controllerII_1cReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1cReg"]}";
+    controller.controllerII_1cKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1cKet"]}";
+    controller.controllerII_1dReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1dReg"]}";
+    controller.controllerII_1dKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1dKet"]}";
+    controller.controllerII_1eReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1eReg"]}";
+    controller.controllerII_1eKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1eKet"]}";
+    controller.controllerII_1fReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1fReg"]}";
+    controller.controllerII_1fKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII_1fKet"]}";
+    controller.controllerII1_2Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_2Reg"]}";
+    controller.controllerII1_2Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_2Ket"]}";
+    controller.controllerII1_3Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_3Reg"]}";
+    controller.controllerII1_3Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_3Ket"]}";
+    controller.controllerII1_4Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_4Reg"]}";
+    controller.controllerII1_4Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_4Ket"]}";
+    controller.controllerII1_5Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_5Reg"]}";
+    controller.controllerII1_5Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_5Ket"]}";
+    controller.controllerII1_6Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_6Reg"]}";
+    controller.controllerII1_6Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_6Ket"]}";
+    controller.controllerII1_7Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_7Reg"]}";
+    controller.controllerII1_7Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_7Ket"]}";
+    controller.controllerII1_8Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_8Reg"]}";
+    controller.controllerII1_8Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_8Ket"]}";
+    controller.controllerII1_9Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_9Reg"]}";
+    controller.controllerII1_9Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_9Ket"]}";
+    controller.controllerII1_10Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_10Reg"]}";
+    controller.controllerII1_10Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_10Ket"]}";
+    controller.controllerII1_11aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11aReg"]}";
+    controller.controllerII1_11aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11aKet"]}";
+    controller.controllerII1_11bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11bReg"]}";
+    controller.controllerII1_11bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII1_11bKet"]}";
+    controller.controllerII2_1Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_1Reg"]}";
+    controller.controllerII2_1Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_1Ket"]}";
+    controller.controllerII2_2Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_2Reg"]}";
+    controller.controllerII2_2Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_2Ket"]}";
+    controller.controllerII2_3aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3aReg"]}";
+    controller.controllerII2_3aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3aKet"]}";
+    controller.controllerII2_3bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3bReg"]}";
+    controller.controllerII2_3bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII2_3bKet"]}";
+    controller.controllerII3_1aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1aReg"]}";
+    controller.controllerII3_1aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1aKet"]}";
+    controller.controllerII3_1bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1bReg"]}";
+    controller.controllerII3_1bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1bKet"]}";
+    controller.controllerII3_1cReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1cReg"]}";
+    controller.controllerII3_1cKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1cKet"]}";
+    controller.controllerII3_1dReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1dReg"]}";
+    controller.controllerII3_1dKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1dKet"]}";
+    controller.controllerII3_1eReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1eReg"]}";
+    controller.controllerII3_1eKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1eKet"]}";
+    controller.controllerII3_1fReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1fReg"]}";
+    controller.controllerII3_1fKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_1fKet"]}";
+    controller.controllerII3_2aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2aReg"]}";
+    controller.controllerII3_2aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2aKet"]}";
+    controller.controllerII3_2bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2bReg"]}";
+    controller.controllerII3_2bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2bKet"]}";
+    controller.controllerII3_2cReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2cReg"]}";
+    controller.controllerII3_2cKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2cKet"]}";
+    controller.controllerII3_2dReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2dReg"]}";
+    controller.controllerII3_2dKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2dKet"]}";
+    controller.controllerII3_2eReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2eReg"]}";
+    controller.controllerII3_2eKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2eKet"]}";
+    controller.controllerII3_2fReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2fReg"]}";
+    controller.controllerII3_2fKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII3_2fKet"]}";
+    controller.controllerII4_1aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1aReg"]}";
+    controller.controllerII4_1aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1aKet"]}";
+    controller.controllerII4_1bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1bReg"]}";
+    controller.controllerII4_1bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1bKet"]}";
+    controller.controllerII4_1cReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1cReg"]}";
+    controller.controllerII4_1cKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1cKet"]}";
+    controller.controllerII4_1dReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1dReg"]}";
+    controller.controllerII4_1dKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_1dKet"]}";
+    controller.controllerII4_2Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_2Reg"]}";
+    controller.controllerII4_2Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_2Ket"]}";
+    controller.controllerII4_3Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_3Reg"]}";
+    controller.controllerII4_3Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_3Ket"]}";
+    controller.controllerII4_4Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_4Reg"]}";
+    controller.controllerII4_4Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_4Ket"]}";
+    controller.controllerII4_5Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_5Reg"]}";
+    controller.controllerII4_5Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_5Ket"]}";
+    controller.controllerII4_6Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_6Reg"]}";
+    controller.controllerII4_6Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII4_6Ket"]}";
+    controller.controllerII5_1Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_1Reg"]}";
+    controller.controllerII5_1Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_1Ket"]}";
+    controller.controllerII5_2Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_2Reg"]}";
+    controller.controllerII5_2Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_2Ket"]}";
+    controller.controllerII5_3Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_3Reg"]}";
+    controller.controllerII5_3Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_3Ket"]}";
+    controller.controllerII5_4Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_4Reg"]}";
+    controller.controllerII5_4Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_4Ket"]}";
+    controller.controllerII5_5Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_5Reg"]}";
+    controller.controllerII5_5Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_5Ket"]}";
+    controller.controllerII5_6Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_6Reg"]}";
+    controller.controllerII5_6Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_6Ket"]}";
+    controller.controllerII5_7Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_7Reg"]}";
+    controller.controllerII5_7Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_7Ket"]}";
+    controller.controllerII5_8Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_8Reg"]}";
+    controller.controllerII5_8Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerII5_8Ket"]}";
+    controller.controllerIII1_1Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_1Reg"]}";
+    controller.controllerIII1_1Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_1Ket"]}";
+    controller.controllerIII1_2Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_2Reg"]}";
+    controller.controllerIII1_2Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_2Ket"]}";
+    controller.controllerIII1_3Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_3Reg"]}";
+    controller.controllerIII1_3Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_3Ket"]}";
+    controller.controllerIII1_4Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_4Reg"]}";
+    controller.controllerIII1_4Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_4Ket"]}";
+    controller.controllerIII1_5Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_5Reg"]}";
+    controller.controllerIII1_5Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_5Ket"]}";
+    controller.controllerIII1_6Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_6Reg"]}";
+    controller.controllerIII1_6Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_6Ket"]}";
+    controller.controllerIII1_7Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_7Reg"]}";
+    controller.controllerIII1_7Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_7Ket"]}";
+    controller.controllerIII1_8Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_8Reg"]}";
+    controller.controllerIII1_8Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_8Ket"]}";
+    controller.controllerIII1_9Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_9Reg"]}";
+    controller.controllerIII1_9Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_9Ket"]}";
+    controller.controllerIII1_10Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_10Reg"]}";
+    controller.controllerIII1_10Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_10Ket"]}";
+    controller.controllerIII1_11Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_11Reg"]}";
+    controller.controllerIII1_11Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_11Ket"]}";
+    controller.controllerIII1_12Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_12Reg"]}";
+    controller.controllerIII1_12Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_12Ket"]}";
+    controller.controllerIII1_13Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_13Reg"]}";
+    controller.controllerIII1_13Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_13Ket"]}";
+    controller.controllerIII1_14Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_14Reg"]}";
+    controller.controllerIII1_14Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_14Ket"]}";
+    controller.controllerIII1_15Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_15Reg"]}";
+    controller.controllerIII1_15Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_15Ket"]}";
+    controller.controllerIII1_16Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_16Reg"]}";
+    controller.controllerIII1_16Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_16Ket"]}";
+    controller.controllerIII1_17Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_17Reg"]}";
+    controller.controllerIII1_17Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_17Ket"]}";
+    controller.controllerIII1_18Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_18Reg"]}";
+    controller.controllerIII1_18Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_18Ket"]}";
+    controller.controllerIII1_19Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_19Reg"]}";
+    controller.controllerIII1_19Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_19Ket"]}";
+    controller.controllerIII1_20Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_20Reg"]}";
+    controller.controllerIII1_20Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_20Ket"]}";
+    controller.controllerIII1_21aReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21aReg"]}";
+    controller.controllerIII1_21aKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21aKet"]}";
+    controller.controllerIII1_21bReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21bReg"]}";
+    controller.controllerIII1_21bKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21bKet"]}";
+    controller.controllerIII1_21cReg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21cReg"]}";
+    controller.controllerIII1_21cKet.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_21cKet"]}";
+    controller.controllerIII1_22Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_22Reg"]}";
+    controller.controllerIII1_22Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_22Ket"]}";
+    controller.controllerIII1_23Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_23Reg"]}";
+    controller.controllerIII1_23Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_23Ket"]}";
+    controller.controllerIII1_24Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_24Reg"]}";
+    controller.controllerIII1_24Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_24Ket"]}";
+    controller.controllerIII1_25Reg.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_25Reg"]}";
+    controller.controllerIII1_25Ket.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII1_25Ket"]}";
+    controller.controllerIII2.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII2"]}";
+    controller.controllerIII3.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII3"]}";
+    controller.controllerIII4.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerIII4"]}";
+    controller.controllerTanggalPemeriksaan.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerTanggalPemeriksaan"]}";
+    controller.controllerNIP.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerNIP"]}";
+    controller.controllerShipsName.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerShipsName"]}";
+    controller.controllerCallSign.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerCallSign"]}";
+    controller.controllerGrossTonnage.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerGrossTonnage"]}";
+    controller.controllerYearBuilding.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerYearBuilding"]}";
+    controller.controllerTypeShips.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerTypeShips"]}";
+    controller.controllerPorRegitry.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerPorRegitry"]}";
+    controller.controllerOwner.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerOwner"]}";
+    controller.controllerTypeInspection.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerTypeInspection"]}";
+    controller.controllerRekomendasi.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerRekomendasi"]}";
+    controller.controllerTindakLanjut.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerTindakLanjut"]}";
+    controller.terpilih1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih1"]}";
+    controller.terpilih2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih2"]}";
+    controller.terpilih3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih3"]}";
+    controller.terpilih4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih4"]}";
+    controller.terpilih5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih5"]}";
+    controller.terpilih6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih6"]}";
+    controller.terpilih7.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih7"]}";
+    controller.terpilih8_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_1"]}";
+    controller.terpilih8_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_2"]}";
+    controller.terpilih8_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_3"]}";
+    controller.terpilih8_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_4"]}";
+    controller.terpilih8_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_5"]}";
+    controller.terpilih8_6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih8_6"]}";
+    controller.terpilih9_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih9_1"]}";
+    controller.terpilih9_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih9_2"]}";
+    controller.terpilih10_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_1"]}";
+    controller.terpilih10_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_2"]}";
+    controller.terpilih10_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_3"]}";
+    controller.terpilih10_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_4"]}";
+    controller.terpilih10_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_5"]}";
+    controller.terpilih10_6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_6"]}";
+    controller.terpilih10_7.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_7"]}";
+    controller.terpilih10_8.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_8"]}";
+    controller.terpilih10_9.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_9"]}";
+    controller.terpilih10_10.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_10"]}";
+    controller.terpilih10_11.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_11"]}";
+    controller.terpilih10_12.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_12"]}";
+    controller.terpilih10_13.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_13"]}";
+    controller.terpilih10_14.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_14"]}";
+    controller.terpilih10_15.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_15"]}";
+    controller.terpilih10_16.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_16"]}";
+    controller.terpilih10_17.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_17"]}";
+    controller.terpilih10_18.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_18"]}";
+    controller.terpilih10_19.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_19"]}";
+    controller.terpilih10_23a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_23a"]}";
+    controller.terpilih10_23b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_23b"]}";
+    controller.terpilih10_24a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24a"]}";
+    controller.terpilih10_24b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24b"]}";
+    controller.terpilih10_24c.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24c"]}";
+    controller.terpilih10_24d.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24d"]}";
+    controller.terpilih10_24e.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24e"]}";
+    controller.terpilih10_24f.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24f"]}";
+    controller.terpilih10_24g.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24g"]}";
+    controller.terpilih10_24h.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24h"]}";
+    controller.terpilih10_24i.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_24i"]}";
+    controller.terpilih10_25.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_25"]}";
+    controller.terpilih10_26.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_26"]}";
+    controller.terpilih10_27.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_27"]}";
+    controller.terpilih10_28.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_28"]}";
+    controller.terpilih10_29.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih10_29"]}";
+    controller.terpilih11_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_1"]}";
+    controller.terpilih11_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_2"]}";
+    controller.terpilih11_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_3"]}";
+    controller.terpilih11_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_4"]}";
+    controller.terpilih11_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih11_5"]}";
+    controller.terpilih12_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_1"]}";
+    controller.terpilih12_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_2"]}";
+    controller.terpilih12_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_3"]}";
+    controller.terpilih12_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_4"]}";
+    controller.terpilih12_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_5"]}";
+    controller.terpilih12_6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_6"]}";
+    controller.terpilih12_7.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_7"]}";
+    controller.terpilih12_8.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_8"]}";
+    controller.terpilih12_9.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_9"]}";
+    controller.terpilih12_10.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih12_10"]}";
+    controller.terpilih13_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_1"]}";
+    controller.terpilih13_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_2"]}";
+    controller.terpilih13_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_3"]}";
+    controller.terpilih13_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_4"]}";
+    controller.terpilih13_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_5"]}";
+    controller.terpilih13_6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_6"]}";
+    controller.terpilih13_7.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_7"]}";
+    controller.terpilih13_8.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_8"]}";
+    controller.terpilih13_9.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_9"]}";
+    controller.terpilih13_10.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih13_10"]}";
+    controller.terpilihIi_1a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1a"]}";
+    controller.terpilihIi_1b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1b"]}";
+    controller.terpilihIi_1c.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1c"]}";
+    controller.terpilihIi_1d.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1d"]}";
+    controller.terpilihIi_1e.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1e"]}";
+    controller.terpilihIi_1f.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi_1f"]}";
+    controller.terpilihIi1_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_2"]}";
+    controller.terpilihIi1_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_3"]}";
+    controller.terpilihIi1_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_4"]}";
+    controller.terpilihIi1_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_5"]}";
+    controller.terpilihIi1_6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_6"]}";
+    controller.terpilihIi1_7.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_7"]}";
+    controller.terpilihIi1_8.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_8"]}";
+    controller.terpilihIi1_9.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_9"]}";
+    controller.terpilihIi1_10.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_10"]}";
+    controller.terpilihIi1_11a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_11a"]}";
+    controller.terpilihIi1_11b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi1_11b"]}";
+    controller.terpilihIi2_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_1"]}";
+    controller.terpilihIi2_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_2"]}";
+    controller.terpilihIi2_3a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_3a"]}";
+    controller.terpilihIi2_3b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi2_3b"]}";
+    controller.terpilihIi3_1a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1a"]}";
+    controller.terpilihIi3_1b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1b"]}";
+    controller.terpilihIi3_1c.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1c"]}";
+    controller.terpilihIi3_1d.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1d"]}";
+    controller.terpilihIi3_1e.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1e"]}";
+    controller.terpilihIi3_1f.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_1f"]}";
+    controller.terpilihIi3_2a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2a"]}";
+    controller.terpilihIi3_2b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2b"]}";
+    controller.terpilihIi3_2c.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2c"]}";
+    controller.terpilihIi3_2d.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2d"]}";
+    controller.terpilihIi3_2e.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2e"]}";
+    controller.terpilihIi3_2f.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi3_2f"]}";
+    controller.terpilihIi4_1a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1a"]}";
+    controller.terpilihIi4_1b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1b"]}";
+    controller.terpilihIi4_1c.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1c"]}";
+    controller.terpilihIi4_1d.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_1d"]}";
+    controller.terpilihIi4_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_2"]}";
+    controller.terpilihIi4_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_3"]}";
+    controller.terpilihIi4_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_4"]}";
+    controller.terpilihIi4_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_5"]}";
+    controller.terpilihIi4_6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi4_6"]}";
+    controller.terpilihIi5_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_1"]}";
+    controller.terpilihIi5_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_2"]}";
+    controller.terpilihIi5_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_3"]}";
+    controller.terpilihIi5_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_4"]}";
+    controller.terpilihIi5_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_5"]}";
+    controller.terpilihIi5_6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_6"]}";
+    controller.terpilihIi5_7.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_7"]}";
+    controller.terpilihIi5_8.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIi5_8"]}";
+    controller.terpilihIii1_1.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_1"]}";
+    controller.terpilihIii1_2.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_2"]}";
+    controller.terpilihIii1_3.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_3"]}";
+    controller.terpilihIii1_4.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_4"]}";
+    controller.terpilihIii1_5.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_5"]}";
+    controller.terpilihIii1_6.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_6"]}";
+    controller.terpilihIii1_7.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_7"]}";
+    controller.terpilihIii1_8.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_8"]}";
+    controller.terpilihIii1_9.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_9"]}";
+    controller.terpilihIii1_10.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_10"]}";
+    controller.terpilihIii1_11.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_11"]}";
+    controller.terpilihIii1_12.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_12"]}";
+    controller.terpilihIii1_13.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_13"]}";
+    controller.terpilihIii1_14.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_14"]}";
+    controller.terpilihIii1_15.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_15"]}";
+    controller.terpilihIii1_16.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_16"]}";
+    controller.terpilihIii1_17.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_17"]}";
+    controller.terpilihIii1_18.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_18"]}";
+    controller.terpilihIii1_19.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_19"]}";
+    controller.terpilihIii1_20.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_20"]}";
+    controller.terpilihIii1_21a.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21a"]}";
+    controller.terpilihIii1_21b.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21b"]}";
+    controller.terpilihIii1_21c.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_21c"]}";
+    controller.terpilihIii1_22.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_22"]}";
+    controller.terpilihIii1_23.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_23"]}";
+    controller.terpilihIii1_24.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_24"]}";
+    controller.terpilihIii1_25.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_25"]}";
   }
 
   @override
@@ -192,6 +3024,478 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                             controller.controllerNoKlasifikasi.text,
                             controller.controllerJenisKapal.text,
                             controller.controllerNamaNAlamatPemelik.text,
+                            controller.pemeriksaanTerpilih2.value,
+                            controller.controllerInformasiStabilitas1.text,
+                            controller.controllerInformasiStabilitas2.text,
+                            controller.controllerPedomanPemuatan1.text,
+                            controller.controllerPedomanPemuatan2.text,
+                            controller.controllerGambarRancanganUmum1.text,
+                            controller.controllerGambarRancanganUmum2.text,
+                            controller.controllerGambarRancangKeselamatan1.text,
+                            controller.controllerGambarRancangKeselamatan2.text,
+                            controller.controllerGambarRancanganKebakaran1.text,
+                            controller.controllerGambarRancanganKebakaran2.text,
+                            controller.controllerPedomanPeningkatanMuatan1.text,
+                            controller.controllerPedomanPeningkatanMuatan2.text,
+                            controller.controllerCatatanKesesuaian1.text,
+                            controller.controllerCatatanKesesuaian2.text,
+                            controller.controllerBajaSteel1.text,
+                            controller.controllerBajaSteel2.text,
+                            controller.controllerAlumunium1.text,
+                            controller.controllerAlumunium2.text,
+                            controller.controllerFiber1.text,
+                            controller.controllerFiber2.text,
+                            controller.controllerKayu1.text,
+                            controller.controllerKayu2.text,
+                            controller.controllerFerroCement1.text,
+                            controller.controllerFerroCement2.text,
+                            controller.controllerBahanLainnya1.text,
+                            controller.controllerBahanLainnya2.text,
+                            controller.controllerKesesuaianMarka1.text,
+                            controller.controllerKesesuaianMarka2.text,
+                            controller.controllerPenandaanDapatDilihat1.text,
+                            controller.controllerPenandaanDapatDilihat2.text,
+                            controller.controllerJumlahSekat1.text,
+                            controller.controllerJumlahSekat2.text,
+                            controller.controllerJendelaCahaya1.text,
+                            controller.controllerJendelaCahaya2.text,
+                            controller.controllerondisiSekat1.text,
+                            controller.controllerondisiSekat2.text,
+                            controller.controllerKondisiSekatKedap1.text,
+                            controller.controllerKondisiSekatKedap2.text,
+                            controller.controllerKondisiKekedapanCuaca1.text,
+                            controller.controllerKondisiKekedapanCuaca2.text,
+                            controller.controllerPenempatanTingkap1.text,
+                            controller.controllerPenempatanTingkap2.text,
+                            controller.controller10_7a.text,
+                            controller.controller10_7b.text,
+                            controller.controller10_8a.text,
+                            controller.controller10_8b.text,
+                            controller.controller10_9a.text,
+                            controller.controller10_9b.text,
+                            controller.controller10_10a.text,
+                            controller.controller10_10b.text,
+                            controller.controller10_11a.text,
+                            controller.controller10_11b.text,
+                            controller.controller10_12a.text,
+                            controller.controller10_12b.text,
+                            controller.controller10_13a.text,
+                            controller.controller10_13b.text,
+                            controller.controller10_14a.text,
+                            controller.controller10_14b.text,
+                            controller.controller10_15a.text,
+                            controller.controller10_15b.text,
+                            controller.controller10_16a.text,
+                            controller.controller10_16b.text,
+                            controller.controller10_17a.text,
+                            controller.controller10_17b.text,
+                            controller.controller10_18a.text,
+                            controller.controller10_18b.text,
+                            controller.controller10_19a.text,
+                            controller.controller10_19b.text,
+                            controller.controller10_23aReg.text,
+                            controller.controller10_23aKet.text,
+                            controller.controller10_23bReg.text,
+                            controller.controller10_23bKet.text,
+                            controller.controller10_24aReg.text,
+                            controller.controller10_24aKet.text,
+                            controller.controller10_24bReg.text,
+                            controller.controller10_24bKet.text,
+                            controller.controller10_24cReg.text,
+                            controller.controller10_24cKet.text,
+                            controller.controller10_24dReg.text,
+                            controller.controller10_24dKet.text,
+                            controller.controller10_24eReg.text,
+                            controller.controller10_24eKet.text,
+                            controller.controller10_24fReg.text,
+                            controller.controller10_24fKet.text,
+                            controller.controller10_24gReg.text,
+                            controller.controller10_24gKet.text,
+                            controller.controller10_24hReg.text,
+                            controller.controller10_24hKet.text,
+                            controller.controller10_24iReg.text,
+                            controller.controller10_24iKet.text,
+                            controller.controller10_25Reg.text,
+                            controller.controller10_25Ket.text,
+                            controller.controller10_26Reg.text,
+                            controller.controller10_26Ket.text,
+                            controller.controller10_27Reg.text,
+                            controller.controller10_27Ket.text,
+                            controller.controller10_28Reg.text,
+                            controller.controller10_28Ket.text,
+                            controller.controller10_29Reg.text,
+                            controller.controller10_29Ket.text,
+                            controller.controller11_1Reg.text,
+                            controller.controller11_1Ket.text,
+                            controller.controller11_2Reg.text,
+                            controller.controller11_2Ket.text,
+                            controller.controller11_3Reg.text,
+                            controller.controller11_3Ket.text,
+                            controller.controller11_4Reg.text,
+                            controller.controller11_4Ket.text,
+                            controller.controller11_5Reg.text,
+                            controller.controller11_5Ket.text,
+                            controller.controller12_1Reg.text,
+                            controller.controller12_1Ket.text,
+                            controller.controller12_2Reg.text,
+                            controller.controller12_2Ket.text,
+                            controller.controller12_3Reg.text,
+                            controller.controller12_3Ket.text,
+                            controller.controller12_4Reg.text,
+                            controller.controller12_4Ket.text,
+                            controller.controller12_5Reg.text,
+                            controller.controller12_5Ket.text,
+                            controller.controller12_6Reg.text,
+                            controller.controller12_6Ket.text,
+                            controller.controller12_7Reg.text,
+                            controller.controller12_7Ket.text,
+                            controller.controller12_8Reg.text,
+                            controller.controller12_8Ket.text,
+                            controller.controller12_9Reg.text,
+                            controller.controller12_9Ket.text,
+                            controller.controller12_10Reg.text,
+                            controller.controller12_10Ket.text,
+                            controller.controller13_1Reg.text,
+                            controller.controller13_1Ket.text,
+                            controller.controller13_2Reg.text,
+                            controller.controller13_2Ket.text,
+                            controller.controller13_3Reg.text,
+                            controller.controller13_3Ket.text,
+                            controller.controller13_4Reg.text,
+                            controller.controller13_4Ket.text,
+                            controller.controller13_5Reg.text,
+                            controller.controller13_5Ket.text,
+                            controller.controller13_6Reg.text,
+                            controller.controller13_6Ket.text,
+                            controller.controller13_7Reg.text,
+                            controller.controller13_7Ket.text,
+                            controller.controller13_8Reg.text,
+                            controller.controller13_8Ket.text,
+                            controller.controller13_9Reg.text,
+                            controller.controller13_9Ket.text,
+                            controller.controller13_10Reg.text,
+                            controller.controller13_10Ket.text,
+                            controller.controllerII_1aReg.text,
+                            controller.controllerII_1aKet.text,
+                            controller.controllerII_1bReg.text,
+                            controller.controllerII_1bKet.text,
+                            controller.controllerII_1cReg.text,
+                            controller.controllerII_1cKet.text,
+                            controller.controllerII_1dReg.text,
+                            controller.controllerII_1dKet.text,
+                            controller.controllerII_1eReg.text,
+                            controller.controllerII_1eKet.text,
+                            controller.controllerII_1fReg.text,
+                            controller.controllerII_1fKet.text,
+                            controller.controllerII1_2Reg.text,
+                            controller.controllerII1_2Ket.text,
+                            controller.controllerII1_3Reg.text,
+                            controller.controllerII1_3Ket.text,
+                            controller.controllerII1_4Reg.text,
+                            controller.controllerII1_4Ket.text,
+                            controller.controllerII1_5Reg.text,
+                            controller.controllerII1_5Ket.text,
+                            controller.controllerII1_6Reg.text,
+                            controller.controllerII1_6Ket.text,
+                            controller.controllerII1_7Reg.text,
+                            controller.controllerII1_7Ket.text,
+                            controller.controllerII1_8Reg.text,
+                            controller.controllerII1_8Ket.text,
+                            controller.controllerII1_9Reg.text,
+                            controller.controllerII1_9Ket.text,
+                            controller.controllerII1_10Reg.text,
+                            controller.controllerII1_10Ket.text,
+                            controller.controllerII1_11aReg.text,
+                            controller.controllerII1_11aKet.text,
+                            controller.controllerII1_11bReg.text,
+                            controller.controllerII1_11bKet.text,
+                            controller.controllerII2_1Reg.text,
+                            controller.controllerII2_1Ket.text,
+                            controller.controllerII2_2Reg.text,
+                            controller.controllerII2_2Ket.text,
+                            controller.controllerII2_3aReg.text,
+                            controller.controllerII2_3aKet.text,
+                            controller.controllerII2_3bReg.text,
+                            controller.controllerII2_3bKet.text,
+                            controller.controllerII3_1aReg.text,
+                            controller.controllerII3_1aKet.text,
+                            controller.controllerII3_1bReg.text,
+                            controller.controllerII3_1bKet.text,
+                            controller.controllerII3_1cReg.text,
+                            controller.controllerII3_1cKet.text,
+                            controller.controllerII3_1dReg.text,
+                            controller.controllerII3_1dKet.text,
+                            controller.controllerII3_1eReg.text,
+                            controller.controllerII3_1eKet.text,
+                            controller.controllerII3_1fReg.text,
+                            controller.controllerII3_1fKet.text,
+                            controller.controllerII3_2aReg.text,
+                            controller.controllerII3_2aKet.text,
+                            controller.controllerII3_2bReg.text,
+                            controller.controllerII3_2bKet.text,
+                            controller.controllerII3_2cReg.text,
+                            controller.controllerII3_2cKet.text,
+                            controller.controllerII3_2dReg.text,
+                            controller.controllerII3_2dKet.text,
+                            controller.controllerII3_2eReg.text,
+                            controller.controllerII3_2eKet.text,
+                            controller.controllerII3_2fReg.text,
+                            controller.controllerII3_2fKet.text,
+                            controller.controllerII4_1aReg.text,
+                            controller.controllerII4_1aKet.text,
+                            controller.controllerII4_1bReg.text,
+                            controller.controllerII4_1bKet.text,
+                            controller.controllerII4_1cReg.text,
+                            controller.controllerII4_1cKet.text,
+                            controller.controllerII4_1dReg.text,
+                            controller.controllerII4_1dKet.text,
+                            controller.controllerII4_2Reg.text,
+                            controller.controllerII4_2Ket.text,
+                            controller.controllerII4_3Reg.text,
+                            controller.controllerII4_3Ket.text,
+                            controller.controllerII4_4Reg.text,
+                            controller.controllerII4_4Ket.text,
+                            controller.controllerII4_5Reg.text,
+                            controller.controllerII4_5Ket.text,
+                            controller.controllerII4_6Reg.text,
+                            controller.controllerII4_6Ket.text,
+                            controller.controllerII5_1Reg.text,
+                            controller.controllerII5_1Ket.text,
+                            controller.controllerII5_2Reg.text,
+                            controller.controllerII5_2Ket.text,
+                            controller.controllerII5_3Reg.text,
+                            controller.controllerII5_3Ket.text,
+                            controller.controllerII5_4Reg.text,
+                            controller.controllerII5_4Ket.text,
+                            controller.controllerII5_5Reg.text,
+                            controller.controllerII5_5Ket.text,
+                            controller.controllerII5_6Reg.text,
+                            controller.controllerII5_6Ket.text,
+                            controller.controllerII5_7Reg.text,
+                            controller.controllerII5_7Ket.text,
+                            controller.controllerII5_8Reg.text,
+                            controller.controllerII5_8Ket.text,
+                            controller.controllerIII1_1Reg.text,
+                            controller.controllerIII1_1Ket.text,
+                            controller.controllerIII1_2Reg.text,
+                            controller.controllerIII1_2Ket.text,
+                            controller.controllerIII1_3Reg.text,
+                            controller.controllerIII1_3Ket.text,
+                            controller.controllerIII1_4Reg.text,
+                            controller.controllerIII1_4Ket.text,
+                            controller.controllerIII1_5Reg.text,
+                            controller.controllerIII1_5Ket.text,
+                            controller.controllerIII1_6Reg.text,
+                            controller.controllerIII1_6Ket.text,
+                            controller.controllerIII1_7Reg.text,
+                            controller.controllerIII1_7Ket.text,
+                            controller.controllerIII1_8Reg.text,
+                            controller.controllerIII1_8Ket.text,
+                            controller.controllerIII1_9Reg.text,
+                            controller.controllerIII1_9Ket.text,
+                            controller.controllerIII1_10Reg.text,
+                            controller.controllerIII1_10Ket.text,
+                            controller.controllerIII1_11Reg.text,
+                            controller.controllerIII1_11Ket.text,
+                            controller.controllerIII1_12Reg.text,
+                            controller.controllerIII1_12Ket.text,
+                            controller.controllerIII1_13Reg.text,
+                            controller.controllerIII1_13Ket.text,
+                            controller.controllerIII1_14Reg.text,
+                            controller.controllerIII1_14Ket.text,
+                            controller.controllerIII1_15Reg.text,
+                            controller.controllerIII1_15Ket.text,
+                            controller.controllerIII1_16Reg.text,
+                            controller.controllerIII1_16Ket.text,
+                            controller.controllerIII1_17Reg.text,
+                            controller.controllerIII1_17Ket.text,
+                            controller.controllerIII1_18Reg.text,
+                            controller.controllerIII1_18Ket.text,
+                            controller.controllerIII1_19Reg.text,
+                            controller.controllerIII1_19Ket.text,
+                            controller.controllerIII1_20Reg.text,
+                            controller.controllerIII1_20Ket.text,
+                            controller.controllerIII1_21aReg.text,
+                            controller.controllerIII1_21aKet.text,
+                            controller.controllerIII1_21bReg.text,
+                            controller.controllerIII1_21bKet.text,
+                            controller.controllerIII1_21cReg.text,
+                            controller.controllerIII1_21cKet.text,
+                            controller.controllerIII1_22Reg.text,
+                            controller.controllerIII1_22Ket.text,
+                            controller.controllerIII1_23Reg.text,
+                            controller.controllerIII1_23Ket.text,
+                            controller.controllerIII1_24Reg.text,
+                            controller.controllerIII1_24Ket.text,
+                            controller.controllerIII1_25Reg.text,
+                            controller.controllerIII1_25Ket.text,
+                            controller.controllerIII2.text,
+                            controller.controllerIII3.text,
+                            controller.controllerIII4.text,
+                            controller.controllerTanggalPemeriksaan.text,
+                            controller.controllerNIP.text,
+                            controller.controllerShipsName.text,
+                            controller.controllerCallSign.text,
+                            controller.controllerGrossTonnage.text,
+                            controller.controllerYearBuilding.text,
+                            controller.controllerTypeShips.text,
+                            controller.controllerPorRegitry.text,
+                            controller.controllerOwner.text,
+                            controller.controllerTypeInspection.text,
+                            controller.controllerRekomendasi.text,
+                            controller.controllerTindakLanjut.text,
+                            controller.terpilih1.value,
+                            controller.terpilih2.value,
+                            controller.terpilih3.value,
+                            controller.terpilih4.value,
+                            controller.terpilih5.value,
+                            controller.terpilih6.value,
+                            controller.terpilih7.value,
+                            controller.terpilih8_1.value,
+                            controller.terpilih8_2.value,
+                            controller.terpilih8_3.value,
+                            controller.terpilih8_4.value,
+                            controller.terpilih8_5.value,
+                            controller.terpilih8_6.value,
+                            controller.terpilih9_1.value,
+                            controller.terpilih9_2.value,
+                            controller.terpilih10_1.value,
+                            controller.terpilih10_2.value,
+                            controller.terpilih10_3.value,
+                            controller.terpilih10_4.value,
+                            controller.terpilih10_5.value,
+                            controller.terpilih10_6.value,
+                            controller.terpilih10_7.value,
+                            controller.terpilih10_8.value,
+                            controller.terpilih10_9.value,
+                            controller.terpilih10_10.value,
+                            controller.terpilih10_11.value,
+                            controller.terpilih10_12.value,
+                            controller.terpilih10_13.value,
+                            controller.terpilih10_14.value,
+                            controller.terpilih10_15.value,
+                            controller.terpilih10_16.value,
+                            controller.terpilih10_17.value,
+                            controller.terpilih10_18.value,
+                            controller.terpilih10_19.value,
+                            controller.terpilih10_23a.value,
+                            controller.terpilih10_23b.value,
+                            controller.terpilih10_24a.value,
+                            controller.terpilih10_24b.value,
+                            controller.terpilih10_24c.value,
+                            controller.terpilih10_24d.value,
+                            controller.terpilih10_24e.value,
+                            controller.terpilih10_24f.value,
+                            controller.terpilih10_24g.value,
+                            controller.terpilih10_24h.value,
+                            controller.terpilih10_24i.value,
+                            controller.terpilih10_25.value,
+                            controller.terpilih10_26.value,
+                            controller.terpilih10_27.value,
+                            controller.terpilih10_28.value,
+                            controller.terpilih10_29.value,
+                            controller.terpilih11_1.value,
+                            controller.terpilih11_2.value,
+                            controller.terpilih11_3.value,
+                            controller.terpilih11_4.value,
+                            controller.terpilih11_5.value,
+                            controller.terpilih12_1.value,
+                            controller.terpilih12_2.value,
+                            controller.terpilih12_3.value,
+                            controller.terpilih12_4.value,
+                            controller.terpilih12_5.value,
+                            controller.terpilih12_6.value,
+                            controller.terpilih12_7.value,
+                            controller.terpilih12_8.value,
+                            controller.terpilih12_9.value,
+                            controller.terpilih12_10.value,
+                            controller.terpilih13_1.value,
+                            controller.terpilih13_2.value,
+                            controller.terpilih13_3.value,
+                            controller.terpilih13_4.value,
+                            controller.terpilih13_5.value,
+                            controller.terpilih13_6.value,
+                            controller.terpilih13_7.value,
+                            controller.terpilih13_8.value,
+                            controller.terpilih13_9.value,
+                            controller.terpilih13_10.value,
+                            controller.terpilihIi_1a.value,
+                            controller.terpilihIi_1b.value,
+                            controller.terpilihIi_1c.value,
+                            controller.terpilihIi_1d.value,
+                            controller.terpilihIi_1e.value,
+                            controller.terpilihIi_1f.value,
+                            controller.terpilihIi1_2.value,
+                            controller.terpilihIi1_3.value,
+                            controller.terpilihIi1_4.value,
+                            controller.terpilihIi1_5.value,
+                            controller.terpilihIi1_6.value,
+                            controller.terpilihIi1_7.value,
+                            controller.terpilihIi1_8.value,
+                            controller.terpilihIi1_9.value,
+                            controller.terpilihIi1_10.value,
+                            controller.terpilihIi1_11a.value,
+                            controller.terpilihIi1_11b.value,
+                            controller.terpilihIi2_1.value,
+                            controller.terpilihIi2_2.value,
+                            controller.terpilihIi2_3a.value,
+                            controller.terpilihIi2_3b.value,
+                            controller.terpilihIi3_1a.value,
+                            controller.terpilihIi3_1b.value,
+                            controller.terpilihIi3_1c.value,
+                            controller.terpilihIi3_1d.value,
+                            controller.terpilihIi3_1e.value,
+                            controller.terpilihIi3_1f.value,
+                            controller.terpilihIi3_2a.value,
+                            controller.terpilihIi3_2b.value,
+                            controller.terpilihIi3_2c.value,
+                            controller.terpilihIi3_2d.value,
+                            controller.terpilihIi3_2e.value,
+                            controller.terpilihIi3_2f.value,
+                            controller.terpilihIi4_1a.value,
+                            controller.terpilihIi4_1b.value,
+                            controller.terpilihIi4_1c.value,
+                            controller.terpilihIi4_1d.value,
+                            controller.terpilihIi4_2.value,
+                            controller.terpilihIi4_3.value,
+                            controller.terpilihIi4_4.value,
+                            controller.terpilihIi4_5.value,
+                            controller.terpilihIi4_6.value,
+                            controller.terpilihIi5_1.value,
+                            controller.terpilihIi5_2.value,
+                            controller.terpilihIi5_3.value,
+                            controller.terpilihIi5_4.value,
+                            controller.terpilihIi5_5.value,
+                            controller.terpilihIi5_6.value,
+                            controller.terpilihIi5_7.value,
+                            controller.terpilihIi5_8.value,
+                            controller.terpilihIii1_1.value,
+                            controller.terpilihIii1_2.value,
+                            controller.terpilihIii1_3.value,
+                            controller.terpilihIii1_4.value,
+                            controller.terpilihIii1_5.value,
+                            controller.terpilihIii1_6.value,
+                            controller.terpilihIii1_7.value,
+                            controller.terpilihIii1_8.value,
+                            controller.terpilihIii1_9.value,
+                            controller.terpilihIii1_10.value,
+                            controller.terpilihIii1_11.value,
+                            controller.terpilihIii1_12.value,
+                            controller.terpilihIii1_13.value,
+                            controller.terpilihIii1_14.value,
+                            controller.terpilihIii1_15.value,
+                            controller.terpilihIii1_16.value,
+                            controller.terpilihIii1_17.value,
+                            controller.terpilihIii1_18.value,
+                            controller.terpilihIii1_19.value,
+                            controller.terpilihIii1_20.value,
+                            controller.terpilihIii1_21a.value,
+                            controller.terpilihIii1_21b.value,
+                            controller.terpilihIii1_21c.value,
+                            controller.terpilihIii1_22.value,
+                            controller.terpilihIii1_23.value,
+                            controller.terpilihIii1_24.value,
+                            controller.terpilihIii1_25.value,
                           );
 
                           showDialog(
