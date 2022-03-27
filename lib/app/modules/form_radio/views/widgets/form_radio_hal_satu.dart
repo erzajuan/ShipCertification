@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/simple/get_view.dart';
-import 'package:ship_certification/app/data/widget/views/radio_left_label_widget.dart';
+import 'package:ship_certification/app/data/widget/views/widget_row_radio_left_label.dart';
 
 import '../../../../data/widget/views/widget_form_field_view.dart';
+import '../../../../data/widget/views/widget_pemeriksaan_view.dart';
 import '../../../../utils/theme.dart';
 import '../../controllers/form_radio_controller.dart';
 
 class HalSatu extends GetView<FormRadioController> {
-  var ctrl = FormRadioController();
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -46,22 +45,24 @@ REGULATION OF MINISTRY OF TRANSPORTATION NO. : KM 65 TAHUN 2009
         WidgetFormFieldView(
             Title: "Nama Kapal",
             Sub1: "name ship",
-            controller: ctrl.controllerNamaKapal),
+            controller: controller.controllerNamaKapal1),
         WidgetFormFieldView(
             Title: "Pemilik Sesuai Surat Laut",
             Sub1: "Owner as Registry Certificator",
-            controller: ctrl.controllerPemilik),
+            controller: controller.controllerPemilik1),
         WidgetFormFieldView(
             Title: "Pelabuhan Pemeriksaan",
             Sub1: "Port of Inspection",
-            controller: ctrl.controllerPelabuhan),
-        RadioLeftLabelWidget(
-          terpilih: ctrl.terpilihHal1,
+            controller: controller.controllerPelabuhan1),
+        WidgetRowRadioLeftLabel(
+          terpilih: controller.terpilihHal1,
           radio1: "A1",
           radio2: "A1 + A2",
           radio3: "A1 + A2 + A3",
           radio4: "A1 + A2 + A3 + A4",
         ),
+        WidgetPemeriksaanView(
+            pemeriksaanTerpilih: controller.pemeriksaanTerpilih2),
         SizedBox(
           height: 31,
         ),

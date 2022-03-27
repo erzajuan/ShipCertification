@@ -7,6 +7,7 @@ class WidgetCatatanBigView extends GetView {
   final String Title;
   final String? sub1;
   final String? sub2;
+  int? lines = 15;
   final TextEditingController controller;
 
   WidgetCatatanBigView(
@@ -14,6 +15,7 @@ class WidgetCatatanBigView extends GetView {
       required this.Title,
       this.sub1,
       this.sub2,
+      this.lines,
       required this.controller})
       : super(key: key);
 
@@ -59,7 +61,7 @@ class WidgetCatatanBigView extends GetView {
           TextField(
               controller: controller,
               keyboardType: TextInputType.multiline,
-              minLines: 15,
+              minLines: lines,
               //Normal textInputField will be displayed
               maxLines: 20,
               decoration: InputDecoration(

@@ -30,37 +30,65 @@ TextStyle unFinished = GoogleFonts.poppins(
 TextStyle button = GoogleFonts.poppins(
     fontWeight: FontWeight.w300, color: whiteColor, fontSize: 24);
 
-
 TextStyle formTitle1 = GoogleFonts.poppins(
-    fontWeight: FontWeight.bold, color: blackColor, fontSize: 24,  height: 1.25 );
+    fontWeight: FontWeight.bold, color: blackColor, fontSize: 24, height: 1.25);
 TextStyle formTitle2 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w400, color: blackColor, fontSize: 18,);
+  fontWeight: FontWeight.w500,
+  color: blackColor,
+  fontSize: 18,
+);
 TextStyle formTitleBold2 = GoogleFonts.poppins(
-  fontWeight: FontWeight.bold, color: blackColor, fontSize: 18,);
+  fontWeight: FontWeight.bold,
+  color: blackColor,
+  fontSize: 18,
+);
 
 TextStyle formTitleSemi1 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w600, color: blackColor, fontSize: 24,  height: 1.25 );
+    fontWeight: FontWeight.w600, color: blackColor, fontSize: 24, height: 1.25);
 TextStyle formTitleSemi2 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w600, color: blackColor, fontSize: 18,  height: 1.6 );
-
+    fontWeight: FontWeight.w600, color: blackColor, fontSize: 18, height: 1.6);
 
 TextStyle formTitleItalic1 = GoogleFonts.poppins(
-    fontWeight: FontWeight.bold, color: blackColor, fontSize: 24,  height: 1.25, fontStyle: FontStyle.italic );
+    fontWeight: FontWeight.bold,
+    color: blackColor,
+    fontSize: 24,
+    height: 1.25,
+    fontStyle: FontStyle.italic);
 TextStyle formTitleItalic2 = GoogleFonts.poppins(
-  fontWeight: FontWeight.w400, color: blackColor, fontSize: 18,fontStyle: FontStyle.italic);
+    fontWeight: FontWeight.w400,
+    color: blackColor,
+    fontSize: 18,
+    fontStyle: FontStyle.italic);
 TextStyle formTitleLightItalic2 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w300, color: blackColor, fontSize: 18,fontStyle: FontStyle.italic);
+    fontWeight: FontWeight.w300,
+    color: blackColor,
+    fontSize: 18,
+    fontStyle: FontStyle.italic);
 TextStyle formSubItalic1 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w500, color: blackColor, fontSize: 14, height: 2.2, fontStyle: FontStyle.italic);
+    fontWeight: FontWeight.w500,
+    color: blackColor,
+    fontSize: 14,
+    height: 2.2,
+    fontStyle: FontStyle.italic);
 
 TextStyle formSub1 = GoogleFonts.poppins(
     fontWeight: FontWeight.w400, color: blackColor, fontSize: 14, height: 2.2);
 TextStyle formSub2 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w400, color: primaryColor, fontSize: 14, fontStyle: FontStyle.italic);
+    fontWeight: FontWeight.w400,
+    color: primaryColor,
+    fontSize: 14,
+    fontStyle: FontStyle.italic);
 TextStyle formSub3 = GoogleFonts.poppins(
-    fontWeight: FontWeight.w400, color: blackColor, fontSize: 14, fontStyle: FontStyle.italic);
+    fontWeight: FontWeight.w400,
+    color: blackColor,
+    fontSize: 14,
+    fontStyle: FontStyle.italic);
 
-
+TextStyle buttonHapus = GoogleFonts.poppins(
+  fontWeight: FontWeight.w500,
+  color: whiteColor,
+  fontSize: 14,
+);
 
 final mytextTheme = TextTheme(
   headline1: GoogleFonts.poppins(
@@ -86,4 +114,5 @@ final mytextTheme = TextTheme(
   caption: GoogleFonts.poppins(
       fontSize: 12, fontWeight: FontWeight.w400, letterSpacing: 0.4),
   overline: GoogleFonts.poppins(
-      fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),);
+      fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),
+);
