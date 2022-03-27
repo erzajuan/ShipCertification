@@ -44,19 +44,19 @@ class HalEmpat extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik4),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe4),
           WidgetCatatanBigView(
               Title: "Channels",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerChannels4),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui4),
           SizedBox(
             height: 30,
@@ -67,19 +67,19 @@ class HalEmpat extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik4_2),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe4_2),
           WidgetCatatanBigView(
               Title: "Channels",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerChannels4_2),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui4_2),
         ],
       ),

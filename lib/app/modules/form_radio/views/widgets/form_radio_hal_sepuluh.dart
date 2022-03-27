@@ -29,35 +29,35 @@ class HalSepuluh extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik10),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe10),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui10),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi10,
           ),
           WidgetCatatanBigView(
             Title:
                 "1	Kode khusus data beacon / Data of unique beacon of identification code",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerKodeKhususBeacon10,
           ),
           WidgetCatatanBigView(
             Title: "2	Fasilitas Penuntun/Homing facilities",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerFasilitasPenuntun10,
           ),
           WidgetCatatanBigView(
             Title: "3	Jenis Sensor Pelepas/Type of release sensor",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerJenisSensorPelepas10,
           ),
           Text(
@@ -77,19 +77,19 @@ class HalSepuluh extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik10_2),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe10_2),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui10_2),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi10_2,
           ),
           Text(
@@ -102,19 +102,19 @@ class HalSepuluh extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik10_3),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe10_3),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui10_3),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi10_3,
           ),
         ],

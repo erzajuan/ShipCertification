@@ -36,19 +36,19 @@ class HalDelapan extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik8),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe8),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui8),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi8,
           ),
           SizedBox(
@@ -60,23 +60,23 @@ class HalDelapan extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik8_2),
           WidgetCatatanBigView(
               Title: "INMARSAT",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerInmarsat8),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe8_2),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui8_2),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi8_2,
           ),
           WidgetColumnRadioLeftLabel(

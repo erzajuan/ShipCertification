@@ -41,19 +41,19 @@ class HalEnam extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik6),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe6),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui6),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi6,
           ),
           Text(
@@ -80,19 +80,19 @@ class HalEnam extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik6_2),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe6_2),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui6_2),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi6_2,
           ),
         ],

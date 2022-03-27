@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
+import 'package:ship_certification/app/data/widget/views/widget_form_field_view.dart';
 import 'package:ship_certification/app/utils/theme.dart';
 
 class WidgetColumnRadioLeftLabel extends GetView {
@@ -22,6 +23,7 @@ class WidgetColumnRadioLeftLabel extends GetView {
   String? title1 = "";
   String? title2 = "";
   String? title3 = "";
+  TextEditingController? textFieldController1;
   onChangePilihan(var pilihan) {
     terpilih.value = pilihan;
   }
@@ -46,6 +48,7 @@ class WidgetColumnRadioLeftLabel extends GetView {
     this.title1,
     this.title2,
     this.title3,
+    this.textFieldController1,
   }) : super(key: key);
 
   @override
@@ -55,25 +58,43 @@ class WidgetColumnRadioLeftLabel extends GetView {
       padding: EdgeInsets.symmetric(vertical: 28),
       child: Column(
         children: [
-          Row(
-            children: [
-              Flexible(
-                child: Text(
-                  radio1,
-                  style: formTitle2,
+          textFieldController1 == null
+              ? Row(
+                  children: [
+                    Flexible(
+                      child: Text(
+                        radio1,
+                        style: formTitle2,
+                      ),
+                    ),
+                    Spacer(),
+                    Obx(
+                      () => Radio(
+                          value: radio1,
+                          groupValue: terpilih.value,
+                          onChanged: (value) {
+                            onChangePilihan(value);
+                          }),
+                    ),
+                  ],
+                )
+              : ListTile(
+                  contentPadding: EdgeInsets.zero,
+                  title: Text(
+                    radio1,
+                    style: formTitle2,
+                  ),
+                  subtitle: WidgetFormFieldView(
+                      Title: "", controller: textFieldController1!),
+                  trailing: Obx(
+                    () => Radio(
+                        value: radio1,
+                        groupValue: terpilih.value,
+                        onChanged: (value) {
+                          onChangePilihan(value);
+                        }),
+                  ),
                 ),
-              ),
-              Spacer(),
-              Obx(
-                () => Radio(
-                    value: radio1,
-                    groupValue: terpilih.value,
-                    onChanged: (value) {
-                      onChangePilihan(value);
-                    }),
-              ),
-            ],
-          ),
           SizedBox(
             width: 30,
           ),

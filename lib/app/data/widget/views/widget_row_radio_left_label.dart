@@ -8,9 +8,9 @@ class WidgetRowRadioLeftLabel extends GetView {
   var terpilih;
   String radio1;
   String radio2;
-  String? radio3 = "";
-  String? radio4 = "";
-  String? radio5 = "";
+  String? radio3;
+  String? radio4;
+  String? radio5;
   onChangePilihan(var pilihan) {
     terpilih.value = pilihan;
   }
@@ -28,7 +28,7 @@ class WidgetRowRadioLeftLabel extends GetView {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 714,
+      width: 500,
       padding: EdgeInsets.symmetric(vertical: 28),
       child: Row(
         children: [
@@ -66,7 +66,7 @@ class WidgetRowRadioLeftLabel extends GetView {
           SizedBox(
             width: 27,
           ),
-          if (radio3 != "") ...{
+          if (radio3 != null) ...{
             Flexible(
               child: Text(
                 radio3!,
@@ -83,12 +83,11 @@ class WidgetRowRadioLeftLabel extends GetView {
               ),
             ),
           } else ...{
-            SizedBox(),
+            SizedBox(
+              width: 27,
+            ),
           },
-          SizedBox(
-            width: 27,
-          ),
-          if (radio4 != "") ...{
+          if (radio4 != null) ...{
             Flexible(
               child: Text(
                 radio4!,
@@ -105,9 +104,11 @@ class WidgetRowRadioLeftLabel extends GetView {
               ),
             ),
           } else ...{
-            SizedBox(),
+            SizedBox(
+              width: 0,
+            ),
           },
-          if (radio5 != "") ...{
+          if (radio5 != null) ...{
             Flexible(
               child: Text(
                 radio5 ?? "",
@@ -124,7 +125,9 @@ class WidgetRowRadioLeftLabel extends GetView {
               ),
             ),
           } else ...{
-            SizedBox(),
+            SizedBox(
+              width: 0,
+            ),
           },
         ],
       ),

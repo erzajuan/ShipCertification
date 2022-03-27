@@ -22,23 +22,23 @@ class HalTujuh extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik7),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe7),
           WidgetCatatanBigView(
               Title: "Jarak Frekwensi / Freq ",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerFrekwensi7),
           WidgetCatatanBigView(
               Title: "Output Power",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerOutput7),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui7),
           SizedBox(
             height: 40,
@@ -61,19 +61,19 @@ class HalTujuh extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik7_2),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe7_2),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui7_2),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi7_2,
           ),
           WidgetColumnRadioLeftLabel(
@@ -95,19 +95,19 @@ class HalTujuh extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik7_3),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe7_3),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui7_3),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi7_3,
           ),
         ],

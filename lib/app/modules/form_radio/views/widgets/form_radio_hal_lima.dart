@@ -96,23 +96,23 @@ class HalLima extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik5),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe5),
           WidgetCatatanBigView(
               Title: "Output Power",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerOutput5),
           WidgetCatatanBigView(
               Title: "Channels",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerChannels5),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui5),
         ],
       ),

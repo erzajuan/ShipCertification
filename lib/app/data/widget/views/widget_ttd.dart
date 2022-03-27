@@ -2,19 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:ship_certification/app/utils/theme.dart';
 
 class WidgetTTD extends StatelessWidget {
-  const WidgetTTD({Key? key}) : super(key: key);
+  String? title;
+  WidgetTTD({Key? key, this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 60),
+      padding: EdgeInsets.symmetric(horizontal: 55),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "TTD Pemeriksa / Marine Inspector :",
+                title == null ? "TTD Pemeriksa / Marine Inspector :" : title!,
                 style: formTitle2,
               ),
               ElevatedButton(

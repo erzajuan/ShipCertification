@@ -29,19 +29,19 @@ class HalSembilan extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik9),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe9),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui9),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi9,
           ),
           Text(
@@ -60,19 +60,19 @@ class HalSembilan extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik9_2),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe9_2),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui9_2),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi9_2,
           ),
           Text(
@@ -96,19 +96,19 @@ class HalSembilan extends GetView<FormRadioController> {
           ),
           WidgetCatatanBigView(
               Title: "Pabrik / Manufacturer",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerPabrik9_3),
           WidgetCatatanBigView(
               Title: "Tipe (No. Seri) / Type (Serial No)",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerTipe9_3),
           WidgetCatatanBigView(
               Title: "Disetujui oleh / Approved by",
-              lines: 5,
+              minimumLines: 5,
               controller: controller.controllerDisetujui9_3),
           WidgetCatatanBigView(
             Title: "Lokasi / Located at",
-            lines: 5,
+            minimumLines: 5,
             controller: controller.controllerLokasi9_3,
           ),
         ],

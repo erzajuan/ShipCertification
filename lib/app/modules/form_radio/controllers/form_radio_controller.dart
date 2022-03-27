@@ -170,6 +170,111 @@ class FormRadioController extends GetxController {
   var controllerDisetujui10_3 = TextEditingController();
   var controllerLokasi10_3 = TextEditingController();
 
+  // hal 11
+  var controllerPabrik11 = TextEditingController();
+  var controllerTipe11 = TextEditingController();
+  var controllerDisetujui11 = TextEditingController();
+  var controllerLokasi11 = TextEditingController();
+
+  var controllerIzinKomunikasi11 = TextEditingController();
+  var controllerDokumentasi11 = "perlengkapan".obs;
+
+  // hal 12
+  var controllerInformasiTambahan12 = TextEditingController();
+
+  // hal 13
+  var controllerManufacturer13 = TextEditingController();
+  var controllerSerialNo13 = TextEditingController();
+  var controllerManufacturer13_2 = TextEditingController();
+  var controllerSerialNo13_2 = TextEditingController();
+  var controllerManufacturer13_3 = TextEditingController();
+  var controllerSerialNo13_3 = TextEditingController();
+  var controllerManufacturer13_4 = TextEditingController();
+  var controllerSerialNo13_4 = TextEditingController();
+  var controllerManufacturer13_5 = TextEditingController();
+  var controllerSerialNo13_5 = TextEditingController();
+  var controllerManufacturer13_6 = TextEditingController();
+  var controllerSerialNo13_6 = TextEditingController();
+  var controllerManufacturer13_7 = TextEditingController();
+  var controllerSerialNo13_7 = TextEditingController();
+  var controllerManufacturer13_8 = TextEditingController();
+  var controllerSerialNo13_8 = TextEditingController();
+  var controllerManufacturer13_9 = TextEditingController();
+  var controllerSerialNo13_9 = TextEditingController();
+  var controllerManufacturer13_10 = TextEditingController();
+  var controllerSerialNo13_10 = TextEditingController();
+  var controllerManufacturer13_11 = TextEditingController();
+  var controllerSerialNo13_11 = TextEditingController();
+  var controllerManufacturer13_12 = TextEditingController();
+  var controllerSerialNo13_12 = TextEditingController();
+  var controllerManufacturer13_13 = TextEditingController();
+  var controllerSerialNo13_13 = TextEditingController();
+  var controllerTitle1 = TextEditingController();
+  var controllerManufacturer13_14 = TextEditingController();
+  var controllerSerialNo13_14 = TextEditingController();
+  var controllerTitle2 = TextEditingController();
+  var controllerManufacturer13_15 = TextEditingController();
+  var controllerSerialNo13_15 = TextEditingController();
+  var controllerTitle3 = TextEditingController();
+  var controllerManufacturer13_16 = TextEditingController();
+  var controllerSerialNo13_16 = TextEditingController();
+  var controllerTitle4 = TextEditingController();
+  var controllerManufacturer13_17 = TextEditingController();
+  var controllerSerialNo13_17 = TextEditingController();
+  var controllerTitle5 = TextEditingController();
+  var controllerManufacturer13_18 = TextEditingController();
+  var controllerSerialNo13_18 = TextEditingController();
+  var controllerTitle6 = TextEditingController();
+  var controllerManufacturer13_19 = TextEditingController();
+  var controllerSerialNo13_19 = TextEditingController();
+  var controllerTitle7 = TextEditingController();
+  var controllerManufacturer13_20 = TextEditingController();
+  var controllerSerialNo13_20 = TextEditingController();
+
+  // hal 14
+  var controllerNoSurvey14 = TextEditingController();
+  var controllerTanggal14 = TextEditingController();
+  var controllerNamaKapal14 = TextEditingController();
+  var controllerBenderaKapal14 = TextEditingController();
+  var controllerNamaOperator14 = TextEditingController();
+  var controllerClass14 = TextEditingController();
+  var controllerCertificate14 = TextEditingController();
+
+  var terpilih14 = "inisial".obs;
+  var terpilihMethodsOf14 = "inisial".obs;
+  var terpilihPrimarySystem14 = "inisial".obs;
+  var terpilihPrimarySystem14_2 = "inisial".obs;
+
+  // hal 15
+  var terpiliRadioTelephony15 = "inisial".obs;
+  var terpiliDSC15 = "inisiasi".obs;
+  var terpiliJagaDengar15 = "inisiasi".obs;
+  var terpiliRadioTelephony15_2 = "inisiasi".obs;
+  var terpiliDSC15_2 = "inisiasi".obs;
+  var terpiliJagaDengar15_2 = "inisiasi".obs;
+  var terpiliRadioTelephony15_3 = "inisiasi".obs;
+  var terpiliDSC15_3 = "inisiasi".obs;
+  var terpiliJagaDengar15_3 = "inisiasi".obs;
+  var terpiliRadioTelegram15_3 = "inisiasi".obs;
+  var terpiliInmarsat15 = "inisiasi".obs;
+  var terpiliPencetakLangsung15 = "inisiasi".obs;
+  var terpiliInmarsatC15 = "inisiasi".obs;
+
+  // hal 16
+  var controllerNamaKapal16 = TextEditingController();
+  var controllerTanda16 = TextEditingController();
+  var controllerIsiKotor16 = TextEditingController();
+  var controllerTahun16 = TextEditingController();
+  var controllerTipeKapal16 = TextEditingController();
+  var controllerPelabuhan16 = TextEditingController();
+  var controllerPemilik16 = TextEditingController();
+  var controllerJenis16 = TextEditingController();
+  var controllerRekomendasi16 = TextEditingController();
+  var controllerTindakLanjut16 = TextEditingController();
+  var controllerTanggalPemeriksaan16 = TextEditingController();
+
+  var terpilihDirekomendasikan16 = "inisiasi".obs;
+
   final count = 0.obs;
   @override
   void onInit() {
