@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ship_certification/app/controllers/auth_controller_controller.dart';
+import 'package:ship_certification/app/controllers/auth_controller.dart';
 import 'app/routes/app_pages.dart';
 
 void main() async {
@@ -27,8 +27,8 @@ class MyApp extends StatelessWidget {
             getPages: AppPages.routes,
             initialRoute:
                 snapshot.data != null && snapshot.data!.emailVerified == true
-                    ? Routes.FORM_KONTRUKSI
-                    : Routes.FORM_KONTRUKSI,
+                    ? Routes.CREATE_REPORT_PAGE
+                    : Routes.CREATE_REPORT_PAGE,
           );
         } else {
           return const Center(

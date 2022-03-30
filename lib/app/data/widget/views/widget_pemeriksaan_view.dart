@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -8,18 +7,26 @@ class WidgetPemeriksaanView extends GetView<WidgetPemeriksaanController> {
   final pemeriksaanTerpilih;
   final pemeriksaanList = Get.put([
     WidgetPemeriksaanController(
-        title: "Pemeriksaan Pertama", subtitle: "Initial Inspection", pemeriksaanTerpilih: "Pemeriksaan Pertama".obs),
+        title: "Pemeriksaan Pertama",
+        subtitle: "Initial Inspection",
+        pemeriksaanTerpilih: "Pemeriksaan Pertama".obs),
     WidgetPemeriksaanController(
-        title: "Pemeriksaan Pembaharuan", subtitle: "Renewal Inspection", pemeriksaanTerpilih: "Pemeriksaan Pembaharuan".obs),
+        title: "Pemeriksaan Pembaharuan",
+        subtitle: "Renewal Inspection",
+        pemeriksaanTerpilih: "Pemeriksaan Pembaharuan".obs),
     WidgetPemeriksaanController(
-        title: "Pemeriksaan Tahunan", subtitle: "Annual Inspection", pemeriksaanTerpilih: "Pemeriksaan Tahunan".obs),
+        title: "Pemeriksaan Tahunan",
+        subtitle: "Annual Inspection",
+        pemeriksaanTerpilih: "Pemeriksaan Tahunan".obs),
     WidgetPemeriksaanController(
-        title: "Pemeriksaan Antara", subtitle: "Intermediate Inspection", pemeriksaanTerpilih: "Pemeriksaan Antara".obs),
+        title: "Pemeriksaan Antara",
+        subtitle: "Intermediate Inspection",
+        pemeriksaanTerpilih: "Pemeriksaan Antara".obs),
     WidgetPemeriksaanController(
-        title: "Pemeriksaan Tambahan", subtitle: "Additional Inspection", pemeriksaanTerpilih: "Pemeriksaan Tambahan".obs)
-
+        title: "Pemeriksaan Tambahan",
+        subtitle: "Additional Inspection",
+        pemeriksaanTerpilih: "Pemeriksaan Tambahan".obs)
   ]);
-
 
   WidgetPemeriksaanView({
     Key? key,
@@ -35,15 +42,12 @@ class WidgetPemeriksaanView extends GetView<WidgetPemeriksaanController> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 714,
-      padding: EdgeInsets.symmetric(vertical: 8),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          ...pemeriksaanList.map(buildSingleRadio).toList()
-        ],
-      )
-    );
+        width: 714,
+        padding: EdgeInsets.symmetric(vertical: 8),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [...pemeriksaanList.map(buildSingleRadio).toList()],
+        ));
   }
 
   Widget buildSingleRadio(WidgetPemeriksaanController pemeriksaanList) =>
@@ -75,7 +79,6 @@ class WidgetPemeriksaanView extends GetView<WidgetPemeriksaanController> {
                   }),
             ),
           ),
-
         ),
       );
 }
@@ -85,9 +88,8 @@ class WidgetPemeriksaanController extends GetxController {
   String title;
   String subtitle;
 
-  WidgetPemeriksaanController({
-    required this.title,
-    required this.subtitle,
-    required this.pemeriksaanTerpilih
-  });
+  WidgetPemeriksaanController(
+      {required this.title,
+      required this.subtitle,
+      required this.pemeriksaanTerpilih});
 }

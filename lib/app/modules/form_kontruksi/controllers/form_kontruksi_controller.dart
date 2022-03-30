@@ -2,12 +2,13 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:get/get.dart';
+import 'package:ship_certification/app/modules/create_report_page/controllers/create_report_page_controller.dart';
 
 class FormKontruksiController extends GetxController {
   FirebaseFirestore firestore = FirebaseFirestore.instance;
 
-  var kapal = "Merry";
-  var tanggal = "27 Maret 2022";
+  var kapal = "";
+  var tanggal = "";
   DocumentSnapshot<Object?>? data = null;
 
   Stream<DocumentSnapshot<Object?>> streamData() {
