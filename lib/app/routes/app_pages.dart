@@ -2,6 +2,7 @@ import 'package:get/get.dart';
 
 import 'package:ship_certification/app/modules/form_kontruksi/bindings/form_kontruksi_binding.dart';
 import 'package:ship_certification/app/modules/form_kontruksi/views/form_kontruksi_view.dart';
+import 'package:ship_certification/app/modules/form_kontruksi/views/form_stream_konstruksi_view.dart';
 
 import '../modules/create_report_page/bindings/create_report_page_binding.dart';
 import '../modules/create_report_page/views/create_report_page_view.dart';
@@ -36,6 +37,11 @@ class AppPages {
     GetPage(
       name: _Paths.FORM_KONTRUKSI,
       page: () => FormKontruksiView(),
+      binding: FormKontruksiBinding(),
+    ),
+    GetPage(
+      name: _Paths.FORM_KONTRUKSI,
+      page: () => FormStreamKontruksiView(),
       binding: FormKontruksiBinding(),
     ),
   ];

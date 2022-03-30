@@ -8,7 +8,7 @@ import '../../../data/widget/views/widget_form_field_view.dart';
 import '../../../data/widget/views/widget_pemeriksaan_view.dart';
 import '../controllers/form_kontruksi_controller.dart';
 
-class FormKontruksiView extends GetView<FormKontruksiController> {
+class FormStreamKontruksiView extends GetView<FormKontruksiController> {
   // AlertDialog SendData() {
   //   AlertDialog alertDialog = AlertDialog(
   //     content: Container(
