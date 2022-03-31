@@ -10,6 +10,7 @@ class CreateReportPageController extends GetxController {
   TextEditingController namaInspekturController = TextEditingController();
   TextEditingController tanggalController = TextEditingController(
       text: DateFormat("dd MMMM yyyy").format(DateTime.now()));
+  final date = TextEditingController();
 
   FirebaseFirestore firestore = FirebaseFirestore.instance;
   var kapal = "";
@@ -36,11 +37,12 @@ class CreateReportPageController extends GetxController {
         .doc(tanggalForm);
 
     try {
-      await formKonstruksi.set({
+      var data = {
         "nama_kapal": kapal,
         "nama_inspektur": namaInspektur,
         "tanggal": tanggal,
-      });
+      };
+      await formKonstruksi.set(data, SetOptions(merge: true));
       Get.defaultDialog(
         title: "Berhasil",
         middleText: "Berhasil Menambahkan Form",

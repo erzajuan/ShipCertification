@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ship_certification/app/modules/form_kontruksi/controllers/form_kontruksi_controller.dart';
 import 'package:ship_certification/app/utils/theme.dart';
+import '../../../data/widget/views/widget_date_view.dart';
 import '../../../routes/app_pages.dart';
 import '../controllers/create_report_page_controller.dart';
 
@@ -55,14 +56,21 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
             SizedBox(
               height: 16,
             ),
-            TextFormField(
-              controller: controller.tanggalController,
-              decoration: InputDecoration(
-                labelText: 'Tanggal',
-                border: OutlineInputBorder(),
-                suffixIcon: Icon(Icons.date_range),
-              ),
-              enabled: false,
+            // TextFormField(
+            //   controller: controller.tanggalController,
+            //   decoration: InputDecoration(
+            //     labelText: 'Tanggal',
+            //     border: OutlineInputBorder(),
+            //     suffixIcon: Icon(Icons.date_range),
+            //   ),
+            //   enabled: false,
+            // ),
+            WidgetDateView(
+              ctrlText: controller.tanggalController,
+              hint: "Tanggal",
+              disableBackDate: false,
+              borderOutline: false,
+              onSaved: (val) {},
             ),
             SizedBox(
               height: 16,

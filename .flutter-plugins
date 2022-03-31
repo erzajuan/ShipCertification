@@ -1,13 +1,13 @@
 # This is a generated file; do not edit or check into version control.
-cloud_firestore=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.10/
-cloud_firestore_web=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-2.6.10/
-firebase_auth=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.3.11/
-firebase_auth_web=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-3.3.9/
-firebase_core=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.13.1/
-firebase_core_web=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.6.1/
-path_provider=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.9/
-path_provider_android=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.12/
-path_provider_ios=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.8/
-path_provider_linux=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.5/
-path_provider_macos=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.5/
-path_provider_windows=/Users/erzajuan/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.5/
+cloud_firestore=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore-3.1.10\\
+cloud_firestore_web=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore_web-2.6.10\\
+firebase_auth=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-3.3.11\\
+firebase_auth_web=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth_web-3.3.9\\
+firebase_core=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-1.13.1\\
+firebase_core_web=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core_web-1.6.1\\
+path_provider=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-2.0.9\\
+path_provider_android=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_android-2.0.12\\
+path_provider_ios=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_ios-2.0.8\\
+path_provider_linux=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-2.1.5\\
+path_provider_macos=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-2.0.5\\
+path_provider_windows=C:\\Development\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_windows-2.0.5\\
