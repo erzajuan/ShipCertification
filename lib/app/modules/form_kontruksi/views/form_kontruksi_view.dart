@@ -1,9 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:ship_certification/app/data/widget/views/widget_date_view.dart';
 import 'package:ship_certification/app/utils/theme.dart';
 import '../../../data/widget/views/widget_catatan_big_view.dart';
 import '../../../data/widget/views/widget_catatan_view.dart';
+import '../../../data/widget/views/widget_double_radio_view.dart';
 import '../../../data/widget/views/widget_form_field_view.dart';
 import '../../../data/widget/views/widget_pemeriksaan_view.dart';
 import '../controllers/form_kontruksi_controller.dart';
@@ -1976,6 +1978,12 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                 "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_24"]}"),
             Text(
                 "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_25"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih_I"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["terpilih_II"]}"),
+            Text(
+                "${(controller.data!.data() as Map<String, dynamic>)["tanggalController1"]}"),
           ],
         ),
       ),
@@ -2957,6 +2965,12 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
         "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_24"]}";
     controller.terpilihIii1_25.value =
         "${(controller.data!.data() as Map<String, dynamic>)["terpilihIii1_25"]}";
+    controller.terpilih_I.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih_I"]}";
+    controller.terpilih_II.value =
+        "${(controller.data!.data() as Map<String, dynamic>)["terpilih_II"]}";
+    controller.controllerTanggal.text =
+        "${(controller.data!.data() as Map<String, dynamic>)["controllerTanggal"]}";
   }
 
   @override
@@ -3499,6 +3513,9 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                             controller.terpilihIii1_23.value,
                             controller.terpilihIii1_24.value,
                             controller.terpilihIii1_25.value,
+                            controller.terpilih_I.value,
+                            controller.terpilih_II.value,
+                            controller.tanggalController1.text,
                           );
                         },
                         child: Text("ok")),
@@ -3511,6 +3528,7 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                               });
                         },
                         child: Text("Lihat Hasil")),
+
                     WidgetFormFieldView(
                         Title: "Nama Kapal",
                         Sub1: "name ship",
@@ -3576,9 +3594,17 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                     WidgetFormFieldView(
                         Title: "Pelabuhan Pemeriksaan",
                         controller: controller.controllerPelabuhan),
-                    WidgetFormFieldView(
-                        Title: "Tanggal Pemeriksaan",
-                        controller: controller.controllerTanggal),
+                    Text("Tanggal Pemeriksaan", style: formTitle2),
+                    WidgetDateView(
+                        ctrlText: controller.controllerTanggal,
+                        hint: "Tanggal Pemeriksaan",
+                        disableBackDate: false,
+                        borderOutline: true,
+                        onSaved: (val) {}),
+
+                    // WidgetFormFieldView(
+                    //     Title: "Tanggal Pemeriksaan",
+                    //     controller: controller.controllerTanggal),
                     WidgetFormFieldView(
                         Title: "Nama Kapal",
                         controller: controller.controllerNamaKapal),
@@ -5314,10 +5340,35 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                       Title: 'Tindak Lanjut',
                       controller: controller.controllerTindakLanjut,
                     ),
+                    SizedBox(height: 25),
 
-                    // FormCheckboxView(
-                    //   checkBool: controller.abc,
-                    // ),
+                    Text(
+                        'Catatan dan hasil pemeriksaan ini agar ditindak lanjuti sebagaimana mestinya',
+                        style: formTitle2),
+                    Text(
+                        'Record of above inspection as soon posible should be done as procedure',
+                        style: formTitleItalic2),
+                    Text('Direkomendasikan bahwa permohonan dapat :',
+                        style: formTitle2),
+
+                    WidgetDoubleRadioView(
+                      terpilih: controller.terpilih_I,
+                      Title1: 'Diterima',
+                      Title2: 'Ditolak',
+                    ),
+
+                    WidgetDoubleRadioView(
+                      terpilih: controller.terpilih_II,
+                      Title1: 'Sertifikat dapat diterbitkan',
+                      Title2: 'Diadakan tindakan perbaikan',
+                    ),
+                    Text('Tanggal:', style: formSub1),
+                    WidgetDateView(
+                        ctrlText: controller.tanggalController1,
+                        hint: "Tanggal",
+                        disableBackDate: false,
+                        borderOutline: true,
+                        onSaved: (val) {}),
 
                     SizedBox(
                       height: 100,

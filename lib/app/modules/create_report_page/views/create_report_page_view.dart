@@ -56,15 +56,6 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
             SizedBox(
               height: 16,
             ),
-            // TextFormField(
-            //   controller: controller.tanggalController,
-            //   decoration: InputDecoration(
-            //     labelText: 'Tanggal',
-            //     border: OutlineInputBorder(),
-            //     suffixIcon: Icon(Icons.date_range),
-            //   ),
-            //   enabled: false,
-            // ),
             WidgetDateView(
               ctrlText: controller.tanggalController,
               hint: "Tanggal",
