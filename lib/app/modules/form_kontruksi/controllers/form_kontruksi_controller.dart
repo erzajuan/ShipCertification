@@ -1,8 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+import 'package:signature/signature.dart';
 import 'package:ship_certification/app/modules/create_report_page/controllers/create_report_page_controller.dart';
 
 class FormKontruksiController extends GetxController {
@@ -1615,8 +1617,17 @@ class FormKontruksiController extends GetxController {
   final count = 0.obs;
   final formkey = GlobalKey<FormBuilderState>();
 
+  final SignatureController ttdController = SignatureController(
+    penStrokeWidth: 1,
+    penColor: Colors.black,
+    exportBackgroundColor: Colors.white,
+    onDrawStart: () => print('onDrawStart called!'),
+    onDrawEnd: () => print('onDrawEnd called!'),
+  );
+
   @override
   void onInit() {
+    ttdController.addListener(() => print('Value changed'));
     controllerNamaKapal;
     controllerPemilik;
     controllerPelabuhan;

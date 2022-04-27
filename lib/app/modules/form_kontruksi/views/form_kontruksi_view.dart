@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -9,6 +11,7 @@ import '../../../data/widget/views/widget_double_radio_view.dart';
 import '../../../data/widget/views/widget_form_field_view.dart';
 import '../../../data/widget/views/widget_pemeriksaan_view.dart';
 import '../controllers/form_kontruksi_controller.dart';
+import 'package:signature/signature.dart';
 
 class FormKontruksiView extends GetView<FormKontruksiController> {
   // AlertDialog SendData() {
@@ -3639,11 +3642,73 @@ class FormKontruksiView extends GetView<FormKontruksiController> {
                     WidgetPemeriksaanView(
                         pemeriksaanTerpilih: controller.pemeriksaanTerpilih2),
 
-                    //TANDA TANGAN
-                    SizedBox(
-                      height: 100,
-                    ),
+                    SizedBox(height: 30),
 
+                    //TANDA TANGAN
+                    Signature(
+                      controller: controller.ttdController,
+                      height: 300,
+                    ),
+                    Container(
+                      decoration: const BoxDecoration(color: Colors.black),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        mainAxisSize: MainAxisSize.max,
+                        children: <Widget>[
+                          //SHOW EXPORTED IMAGE IN NEW ROUTE
+                          IconButton(
+                            icon: const Icon(Icons.check),
+                            color: Colors.blue,
+                            onPressed: () async {
+                              if (controller.ttdController.isNotEmpty) {
+                                final Uint8List? data =
+                                    await controller.ttdController.toPngBytes();
+                                if (data != null) {
+                                  await Navigator.of(context).push(
+                                    MaterialPageRoute<void>(
+                                      builder: (BuildContext context) {
+                                        return Scaffold(
+                                          appBar: AppBar(),
+                                          body: Center(
+                                            child: Container(
+                                              color: Colors.grey[300],
+                                              child: Image.memory(data),
+                                            ),
+                                          ),
+                                        );
+                                      },
+                                    ),
+                                  );
+                                }
+                              }
+                            },
+                          ),
+                          IconButton(
+                            icon: const Icon(Icons.undo),
+                            color: Colors.blue,
+                            onPressed: () {
+                              controller.ttdController.undo();
+                            },
+                          ),
+                          IconButton(
+                            icon: const Icon(Icons.redo),
+                            color: Colors.blue,
+                            onPressed: () {
+                              controller.ttdController.redo();
+                            },
+                          ),
+                          //CLEAR CANVAS
+                          IconButton(
+                            icon: const Icon(Icons.clear),
+                            color: Colors.blue,
+                            onPressed: () {
+                              controller.ttdController.clear();
+                            },
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(height: 60),
                     //Text
                     Text(
                       "1. CATATAN LAPORAN PEMERIKSAAN",
