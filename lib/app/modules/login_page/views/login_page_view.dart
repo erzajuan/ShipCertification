@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ship_certification/app/controllers/auth_controller.dart';
 import 'package:ship_certification/app/utils/theme.dart';
+import '../../../routes/app_pages.dart';
 import '../controllers/login_page_controller.dart';
 
 class LoginPageView extends GetView<LoginPageController> {
-  final auth = Get.find<AuthController>();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -107,10 +106,10 @@ class LoginPageView extends GetView<LoginPageController> {
                       primary: primaryColor,
                     ),
                     onPressed: () {
-                      auth.login(
-                        controller.emailController.text,
-                        controller.passwordController.text,
-                      );
+                      if (controller.emailController.text == "admin" &&
+                          controller.passwordController.text == "admin") {
+                        Get.toNamed(Routes.HOME);
+                      }
                     },
                     child: Text(
                       "Sign In",
@@ -118,15 +117,6 @@ class LoginPageView extends GetView<LoginPageController> {
                     ),
                   ),
                 ),
-              ),
-              ElevatedButton(
-                onPressed: () {
-                  auth.signUp(
-                    controller.emailController.text,
-                    controller.passwordController.text,
-                  );
-                },
-                child: Text("daftar"),
               ),
             ],
           ),

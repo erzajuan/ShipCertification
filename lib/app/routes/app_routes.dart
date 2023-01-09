@@ -10,6 +10,9 @@ abstract class Routes {
   static const LIST_FORM_CERTIFICATE_PAGE = _Paths.LIST_FORM_CERTIFICATE_PAGE;
   static const FORM_KONTRUKSI = _Paths.FORM_KONTRUKSI;
   static const FORM_STREAM_KONTRUKSI = _Paths.FORM_STREAM_KONTRUKSI;
+  static const FORM_KONSTRUKSI_2 = _Paths.FORM_KONSTRUKSI_2;
+  static const FORM_KONSTRUKSI_3 = _Paths.FORM_KONSTRUKSI_3;
+  static const FORM_KONSTRUKSI_4 = _Paths.FORM_KONSTRUKSI_4;
 }
 
 abstract class _Paths {
@@ -21,4 +24,7 @@ abstract class _Paths {
   static const LIST_FORM_CERTIFICATE_PAGE = '/list-form-certificate-page';
   static const FORM_KONTRUKSI = '/form-kontruksi';
   static const FORM_STREAM_KONTRUKSI = '/form-stream-kontruksi';
+  static const FORM_KONSTRUKSI_2 = '/form-konstruksi-2';
+  static const FORM_KONSTRUKSI_3 = '/form-konstruksi-3';
+  static const FORM_KONSTRUKSI_4 = '/form-konstruksi-4';
 }

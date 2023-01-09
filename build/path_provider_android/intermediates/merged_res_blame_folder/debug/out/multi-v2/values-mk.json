@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ShipCertification\\build\\path_provider_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "/Users/erzajuan/GitHub Repository/ShipCertification/build/path_provider_android/intermediates/merged_res/debug/values-mk/values-mk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\10152ccd1e16bf9bd032c5348e3a2968\\transformed\\core-1.6.0\\res\\values-mk\\values-mk.xml",
+                    "source": "/Users/erzajuan/.gradle/caches/transforms-3/10152ccd1e16bf9bd032c5348e3a2968/transformed/core-1.6.0/res/values-mk/values-mk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "D:\\ShipCertification\\build\\path_provider_android\\intermediates\\merged_res\\debug\\values-mk\\values-mk.xml",
+            "outputFile": "/Users/erzajuan/GitHub Repository/ShipCertification/build/path_provider_android/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\10152ccd1e16bf9bd032c5348e3a2968\\transformed\\core-1.6.0\\res\\values-mk\\values-mk.xml",
+                    "source": "/Users/erzajuan/.gradle/caches/transforms-3/10152ccd1e16bf9bd032c5348e3a2968/transformed/core-1.6.0/res/values-mk/values-mk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

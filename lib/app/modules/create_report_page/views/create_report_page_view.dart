@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ship_certification/app/modules/form_kontruksi/controllers/form_kontruksi_controller.dart';
+import 'package:ship_certification/app/modules/form_konstruksi/controllers/form_konstruksi_controller.dart';
 import 'package:ship_certification/app/utils/theme.dart';
 import '../../../data/widget/views/widget_date_view.dart';
 import '../../../routes/app_pages.dart';
@@ -84,22 +84,13 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   primary: primaryColor,
-                  fixedSize: Size(160, 76),
+                  fixedSize: Size(100, 40),
                 ),
                 onPressed: () {
-                  controller.kapal = controller.namaKapalController.text;
-                  controller.inspektur =
-                      controller.namaInspekturController.text;
-                  controller.tanggal = controller.tanggalController.text;
-
-                  form.kapal = controller.namaKapalController.text;
-                  form.tanggal = controller.tanggalController.text;
-                  controller.addForm(controller.kapal, controller.inspektur,
-                      controller.tanggal);
+                  Get.toNamed(Routes.FORM_KONTRUKSI);
                 },
                 child: Text(
                   'Next',
-                  style: button,
                 ),
               ),
             )

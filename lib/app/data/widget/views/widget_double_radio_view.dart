@@ -27,7 +27,7 @@ class WidgetDoubleRadioView extends GetView {
     return Container(
         width: 714,
         padding: EdgeInsets.symmetric(vertical: 8),
-        child: Row(
+        child: Column(
           children: [
             Obx(
               () => Transform.scale(

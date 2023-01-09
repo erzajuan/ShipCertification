@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../../form_kontruksi/controllers/form_kontruksi_controller.dart';
+import '../../form_konstruksi/controllers/form_konstruksi_controller.dart';
 import '../controllers/create_report_page_controller.dart';
 
 class CreateReportPageBinding extends Bindings {
