@@ -10,6 +10,8 @@ import '../modules/form_konstruksi_3/bindings/form_konstruksi_3_binding.dart';
 import '../modules/form_konstruksi_3/views/form_konstruksi_3_view.dart';
 import '../modules/form_konstruksi_4/bindings/form_konstruksi_4_binding.dart';
 import '../modules/form_konstruksi_4/views/form_konstruksi_4_view.dart';
+import '../modules/form_perlengkapan/bindings/form_perlengkapan_binding.dart';
+import '../modules/form_perlengkapan/views/form_perlengkapan_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/list_form_certificate_page/bindings/list_form_certificate_page_binding.dart';
@@ -64,6 +66,16 @@ class AppPages {
       name: _Paths.FORM_KONSTRUKSI_4,
       page: () => FormKonstruksi4View(),
       binding: FormKonstruksi4Binding(),
+    ),
+    GetPage(
+      name: _Paths.FORM_PERLENGKAPAN,
+      page: () => FormPerlengkapanView(),
+      binding: FormPerlengkapanBinding(),
+    ),
+    GetPage(
+      name: _Paths.FORM_PERLENGKAPAN_2,
+      page: () => FormPerlengkapanView(),
+      binding: FormPerlengkapanBinding(),
     ),
   ];
 }

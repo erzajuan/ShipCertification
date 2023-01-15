@@ -24,6 +24,6 @@ dev_dependencies:
   signature: ^5.0.0
 
 flutter:
-  assets:
-    - assets/
+  # assets:
+  #   - assets/
   uses-material-design: true

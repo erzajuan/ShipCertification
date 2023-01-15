@@ -4,10 +4,12 @@ import 'package:ship_certification/app/modules/form_konstruksi/controllers/form_
 import 'package:ship_certification/app/utils/theme.dart';
 import '../../../data/widget/views/widget_date_view.dart';
 import '../../../routes/app_pages.dart';
+import '../../form_perlengkapan/controllers/form_Perlengkapan_controller.dart';
 import '../controllers/create_report_page_controller.dart';
 
 class CreateReportPageView extends GetView<CreateReportPageController> {
   final form = Get.find<FormKontruksiController>();
+  final form = Get.find<FormPerlengkapanController>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,6 +90,7 @@ class CreateReportPageView extends GetView<CreateReportPageController> {
                 ),
                 onPressed: () {
                   Get.toNamed(Routes.FORM_KONTRUKSI);
+                  Get.toNamed(Routes.FORM_PERLENGKAPAN);
                 },
                 child: Text(
                   'Next',
